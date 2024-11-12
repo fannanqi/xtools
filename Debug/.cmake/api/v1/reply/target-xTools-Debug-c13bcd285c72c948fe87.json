@@ -1,0 +1,3105 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "assets/xTools/xTools.app/Contents/MacOS/xTools"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"x_tools_add_executable",
+			"target_link_libraries",
+			"set_target_properties",
+			"_populate_Widgets_target_properties",
+			"find_package",
+			"_populate_Xml_target_properties",
+			"add_dependencies",
+			"add_compile_definitions",
+			"include",
+			"x_tools_add_assistant",
+			"x_tools_git_get_latest_commit",
+			"x_tools_git_get_latest_commit_time",
+			"x_tools_git_get_latest_tag",
+			"include_directories",
+			"x_tools_add_third_party",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"CMake/xToolsCommon.cmake",
+			"CMakeLists.txt",
+			"Source/Tools/CMakeLists.txt",
+			"Source/Common/CMakeLists.txt",
+			"ThirdParty/qmdnsengine-master/src/CMakeLists.txt",
+			"Source/Task/CMakeLists.txt",
+			"/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+			"/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/cmake/Qt5Svg/Qt5SvgConfig.cmake",
+			"/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/cmake/Qt5/Qt5Config.cmake",
+			"/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/cmake/Qt5Xml/Qt5XmlConfig.cmake",
+			"CMake/xToolsThirdParty.cmake",
+			"CMake/xToolsGitInfo.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 227,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 52,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 235,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 237,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 241,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 216,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 40,
+				"parent" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 41,
+				"parent" : 7
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 48,
+				"parent" : 10
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 53,
+				"parent" : 10
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 65,
+				"parent" : 10
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 68,
+				"parent" : 10
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 218,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 221,
+				"parent" : 0
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 64,
+				"parent" : 17
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 5,
+				"line" : 13,
+				"parent" : 19
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 35,
+				"parent" : 0
+			},
+			{
+				"file" : 8,
+				"parent" : 21
+			},
+			{
+				"command" : 5,
+				"file" : 8,
+				"line" : 28,
+				"parent" : 22
+			},
+			{
+				"file" : 7,
+				"parent" : 23
+			},
+			{
+				"command" : 5,
+				"file" : 7,
+				"line" : 83,
+				"parent" : 24
+			},
+			{
+				"file" : 6,
+				"parent" : 25
+			},
+			{
+				"command" : 4,
+				"file" : 6,
+				"line" : 149,
+				"parent" : 26
+			},
+			{
+				"command" : 3,
+				"file" : 6,
+				"line" : 32,
+				"parent" : 27
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 236,
+				"parent" : 0
+			},
+			{
+				"file" : 8,
+				"parent" : 29
+			},
+			{
+				"command" : 5,
+				"file" : 8,
+				"line" : 28,
+				"parent" : 30
+			},
+			{
+				"file" : 9,
+				"parent" : 31
+			},
+			{
+				"command" : 6,
+				"file" : 9,
+				"line" : 149,
+				"parent" : 32
+			},
+			{
+				"command" : 3,
+				"file" : 9,
+				"line" : 32,
+				"parent" : 33
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 234,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 240,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 76,
+				"parent" : 0
+			},
+			{
+				"file" : 10,
+				"parent" : 37
+			},
+			{
+				"command" : 8,
+				"file" : 10,
+				"line" : 10,
+				"parent" : 38
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 73,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 40
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 1,
+				"parent" : 41
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 41
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 41
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 4,
+				"parent" : 41
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 2,
+				"parent" : 41
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 153,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 141,
+				"parent" : 47
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 172,
+				"parent" : 0
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 154,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 141,
+				"parent" : 50
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 158,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 141,
+				"parent" : 52
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 125,
+				"parent" : 0
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 150,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 141,
+				"parent" : 55
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 159,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 141,
+				"parent" : 57
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 160,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 141,
+				"parent" : 59
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 151,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 141,
+				"parent" : 61
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 117,
+				"parent" : 0
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 155,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 141,
+				"parent" : 64
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 152,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 141,
+				"parent" : 66
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 157,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 141,
+				"parent" : 68
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 56,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 156,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 141,
+				"parent" : 72
+			},
+			{
+				"command" : 8,
+				"file" : 10,
+				"line" : 11,
+				"parent" : 38
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 41
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 41
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 81,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 11,
+				"line" : 23,
+				"parent" : 77
+			},
+			{
+				"command" : 12,
+				"file" : 1,
+				"line" : 82,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 11,
+				"line" : 34,
+				"parent" : 79
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 80,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 11,
+				"line" : 12,
+				"parent" : 81
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 41
+			},
+			{
+				"command" : 14,
+				"file" : 10,
+				"line" : 9,
+				"parent" : 38
+			},
+			{
+				"command" : 14,
+				"file" : 1,
+				"line" : 122,
+				"parent" : 0
+			},
+			{
+				"command" : 14,
+				"file" : 1,
+				"line" : 130,
+				"parent" : 0
+			},
+			{
+				"command" : 14,
+				"file" : 1,
+				"line" : 140,
+				"parent" : 55
+			},
+			{
+				"command" : 14,
+				"file" : 1,
+				"line" : 140,
+				"parent" : 61
+			},
+			{
+				"command" : 14,
+				"file" : 1,
+				"line" : 140,
+				"parent" : 66
+			},
+			{
+				"command" : 14,
+				"file" : 1,
+				"line" : 140,
+				"parent" : 47
+			},
+			{
+				"command" : 14,
+				"file" : 1,
+				"line" : 140,
+				"parent" : 50
+			},
+			{
+				"command" : 14,
+				"file" : 1,
+				"line" : 140,
+				"parent" : 64
+			},
+			{
+				"command" : 14,
+				"file" : 1,
+				"line" : 140,
+				"parent" : 72
+			},
+			{
+				"command" : 14,
+				"file" : 1,
+				"line" : 140,
+				"parent" : 68
+			},
+			{
+				"command" : 14,
+				"file" : 1,
+				"line" : 140,
+				"parent" : 52
+			},
+			{
+				"command" : 14,
+				"file" : 1,
+				"line" : 140,
+				"parent" : 57
+			},
+			{
+				"command" : 14,
+				"file" : 1,
+				"line" : 140,
+				"parent" : 59
+			},
+			{
+				"command" : 15,
+				"file" : 1,
+				"line" : 163,
+				"parent" : 0
+			},
+			{
+				"command" : 14,
+				"file" : 0,
+				"line" : 24,
+				"parent" : 98
+			},
+			{
+				"command" : 15,
+				"file" : 1,
+				"line" : 167,
+				"parent" : 0
+			},
+			{
+				"command" : 14,
+				"file" : 0,
+				"line" : 24,
+				"parent" : 100
+			},
+			{
+				"command" : 14,
+				"file" : 1,
+				"line" : 171,
+				"parent" : 0
+			},
+			{
+				"command" : 14,
+				"file" : 1,
+				"line" : 179,
+				"parent" : 0
+			},
+			{
+				"command" : 14,
+				"file" : 1,
+				"line" : 180,
+				"parent" : 0
+			},
+			{
+				"command" : 14,
+				"file" : 1,
+				"line" : 181,
+				"parent" : 0
+			},
+			{
+				"command" : 14,
+				"file" : 1,
+				"line" : 182,
+				"parent" : 0
+			},
+			{
+				"command" : 14,
+				"file" : 1,
+				"line" : 183,
+				"parent" : 0
+			},
+			{
+				"command" : 14,
+				"file" : 1,
+				"line" : 184,
+				"parent" : 0
+			},
+			{
+				"command" : 14,
+				"file" : 1,
+				"line" : 185,
+				"parent" : 0
+			},
+			{
+				"command" : 14,
+				"file" : 1,
+				"line" : 186,
+				"parent" : 0
+			},
+			{
+				"command" : 14,
+				"file" : 1,
+				"line" : 187,
+				"parent" : 0
+			},
+			{
+				"command" : 14,
+				"file" : 1,
+				"line" : 188,
+				"parent" : 0
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++14 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 39,
+					"define" : "ACSS_STATIC"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_SERIALBUS_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_SERIALPORT_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_SVG_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_WEBSOCKETS_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_WIDGETS_LIB"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "QT_XML_LIB"
+				},
+				{
+					"backtrace" : 42,
+					"define" : "X_TOOLS_AUTHOR=\"x-tools-author\""
+				},
+				{
+					"backtrace" : 43,
+					"define" : "X_TOOLS_AUTHOR_EMAIL=\"x-tools@outlook.com\""
+				},
+				{
+					"backtrace" : 44,
+					"define" : "X_TOOLS_CLEAR_MESSAGE_INTERVAL=8000"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "X_TOOLS_DEFAULT_APP_STYLE=\"Fusion\""
+				},
+				{
+					"backtrace" : 46,
+					"define" : "X_TOOLS_EDITION=\"beta1\""
+				},
+				{
+					"backtrace" : 48,
+					"define" : "X_TOOLS_ENABLE_MODULE_ASCII"
+				},
+				{
+					"backtrace" : 49,
+					"define" : "X_TOOLS_ENABLE_MODULE_ASSISTANTS"
+				},
+				{
+					"backtrace" : 51,
+					"define" : "X_TOOLS_ENABLE_MODULE_BASE64"
+				},
+				{
+					"backtrace" : 53,
+					"define" : "X_TOOLS_ENABLE_MODULE_BROADCAST"
+				},
+				{
+					"backtrace" : 54,
+					"define" : "X_TOOLS_ENABLE_MODULE_CANBUS"
+				},
+				{
+					"backtrace" : 56,
+					"define" : "X_TOOLS_ENABLE_MODULE_CRC"
+				},
+				{
+					"backtrace" : 58,
+					"define" : "X_TOOLS_ENABLE_MODULE_FILECHECK"
+				},
+				{
+					"backtrace" : 60,
+					"define" : "X_TOOLS_ENABLE_MODULE_FILEMERGE"
+				},
+				{
+					"backtrace" : 62,
+					"define" : "X_TOOLS_ENABLE_MODULE_MDNS"
+				},
+				{
+					"backtrace" : 63,
+					"define" : "X_TOOLS_ENABLE_MODULE_MODBUS"
+				},
+				{
+					"backtrace" : 65,
+					"define" : "X_TOOLS_ENABLE_MODULE_NUMBER"
+				},
+				{
+					"backtrace" : 67,
+					"define" : "X_TOOLS_ENABLE_MODULE_PING"
+				},
+				{
+					"backtrace" : 69,
+					"define" : "X_TOOLS_ENABLE_MODULE_QRCODE"
+				},
+				{
+					"backtrace" : 70,
+					"define" : "X_TOOLS_ENABLE_MODULE_SERIALBUS"
+				},
+				{
+					"backtrace" : 71,
+					"define" : "X_TOOLS_ENABLE_MODULE_SERIALPORT"
+				},
+				{
+					"backtrace" : 73,
+					"define" : "X_TOOLS_ENABLE_MODULE_STRING"
+				},
+				{
+					"backtrace" : 74,
+					"define" : "X_TOOLS_ENABLE_MODULE_STYLESHEET"
+				},
+				{
+					"backtrace" : 75,
+					"define" : "X_TOOLS_GITEE_REPOSITORY_URL=\"https://gitee.com/x-tools-author/x-tools\""
+				},
+				{
+					"backtrace" : 76,
+					"define" : "X_TOOLS_GITHUB_REPOSITORY_URL=\"https://github.com/x-tools-author/x-tools\""
+				},
+				{
+					"backtrace" : 78,
+					"define" : "X_TOOLS_GIT_COMMIT=\"\""
+				},
+				{
+					"backtrace" : 80,
+					"define" : "X_TOOLS_GIT_COMMIT_TIME=\"\""
+				},
+				{
+					"backtrace" : 82,
+					"define" : "X_TOOLS_GIT_TAG=\"\""
+				},
+				{
+					"backtrace" : 83,
+					"define" : "X_TOOLS_VERSION=\"6.0.0\""
+				}
+			],
+			"frameworks" : 
+			[
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtGui.framework"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtCore.framework"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtSvg.framework"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtWidgets.framework"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtNetwork.framework"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtSerialBus.framework"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtSerialPort.framework"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtWebSockets.framework"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtXml.framework"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Debug/xTools_autogen/include"
+				},
+				{
+					"backtrace" : 84,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/CMake/../ThirdParty/Qt-Advanced-Stylesheets-main/src"
+				},
+				{
+					"backtrace" : 85,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Modbus/Source"
+				},
+				{
+					"backtrace" : 86,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/CANBus/Source"
+				},
+				{
+					"backtrace" : 87,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/CRC/Source"
+				},
+				{
+					"backtrace" : 88,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/mDNS/Source"
+				},
+				{
+					"backtrace" : 89,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/Ping/Source"
+				},
+				{
+					"backtrace" : 90,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/ASCII/Source"
+				},
+				{
+					"backtrace" : 91,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/Base64/Source"
+				},
+				{
+					"backtrace" : 92,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/Number/Source"
+				},
+				{
+					"backtrace" : 93,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/String/Source"
+				},
+				{
+					"backtrace" : 94,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/QRCode/Source"
+				},
+				{
+					"backtrace" : 95,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/Broadcast/Source"
+				},
+				{
+					"backtrace" : 96,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/FileCheck/Source"
+				},
+				{
+					"backtrace" : 97,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/FileMerge/Source"
+				},
+				{
+					"backtrace" : 99,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/ThirdParty/libqrencode-master"
+				},
+				{
+					"backtrace" : 101,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/ThirdParty/qmdnsengine-master"
+				},
+				{
+					"backtrace" : 102,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants"
+				},
+				{
+					"backtrace" : 103,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Common/Common"
+				},
+				{
+					"backtrace" : 104,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Common/CommonUI"
+				},
+				{
+					"backtrace" : 105,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Tools/Tools"
+				},
+				{
+					"backtrace" : 106,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Tools/ToolsUI"
+				},
+				{
+					"backtrace" : 107,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/ToolBox/ToolBox"
+				},
+				{
+					"backtrace" : 108,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/ToolBox/ToolBoxUI"
+				},
+				{
+					"backtrace" : 109,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/network/creator"
+				},
+				{
+					"backtrace" : 110,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/electr/creator"
+				},
+				{
+					"backtrace" : 111,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source"
+				},
+				{
+					"backtrace" : 112,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/task/source"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/ThirdParty/qmdnsengine-master/src/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Debug/ThirdParty/qmdnsengine-master/src"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtGui.framework/Headers"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/OpenGL.framework/Headers"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtCore.framework/Headers"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/./mkspecs/macx-clang"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtSvg.framework/Headers"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtWidgets.framework/Headers"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtNetwork.framework/Headers"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtSerialBus.framework/Headers"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtSerialPort.framework/Headers"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtWebSockets.framework/Headers"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtXml.framework/Headers"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				4,
+				7,
+				9,
+				12,
+				15,
+				18,
+				20,
+				23,
+				26,
+				29,
+				32,
+				35,
+				38,
+				41,
+				43,
+				45,
+				48,
+				52,
+				53,
+				55,
+				57,
+				60,
+				62,
+				65,
+				68,
+				71,
+				74,
+				76,
+				79,
+				82,
+				86,
+				89,
+				93,
+				96,
+				99,
+				101,
+				104,
+				107,
+				110,
+				113,
+				116,
+				118,
+				121,
+				124,
+				156
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 35,
+			"id" : "xToolsCore::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "qrencode::@dcc603b84b47c31c3a04"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "qmdnsengine::@dfe4569bdf61c26b5e92"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "xToolsCommon::@db1505eb558fbb8cb9af"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "xToolsTools::@fe417c6d97d7eccb8d07"
+		},
+		{
+			"backtrace" : 36,
+			"id" : "xToolsTask::@af24ee6e9327d34d50f2"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "xTools_autogen::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "xTools::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-F/Users/apple/Qt5.12.10/5.12.10/clang_64/lib",
+				"role" : "frameworkPath"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/Users/apple/Qt5.12.10/5.12.10/clang_64/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "libxToolsCore.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtXml.framework/QtXml",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "Source/Task/libxToolsTask.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "Source/Tools/libxToolsTools.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtXml.framework/QtXml",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "Source/Common/libxToolsCommon.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtXml.framework/QtXml",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtSvg.framework/QtSvg",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtSerialBus.framework/QtSerialBus",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtSerialPort.framework/QtSerialPort",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtWebSockets.framework/QtWebSockets",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "ThirdParty/libqrencode-master/libqrencode.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "ThirdParty/qmdnsengine-master/src/libqmdnsengine.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtNetwork.framework/QtNetwork",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtWidgets.framework/QtWidgets",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 28,
+				"fragment" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtGui.framework/QtGui",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 34,
+				"fragment" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtCore.framework/QtCore",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "xTools",
+	"nameOnDisk" : "xTools",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				4,
+				7,
+				9,
+				12,
+				15,
+				18,
+				20,
+				23,
+				26,
+				29,
+				32,
+				35,
+				38,
+				41,
+				43,
+				45,
+				48,
+				52,
+				53,
+				55,
+				57,
+				60,
+				62,
+				65,
+				68,
+				71,
+				74,
+				76,
+				79,
+				82,
+				86,
+				89,
+				93,
+				96,
+				99,
+				101,
+				104,
+				107,
+				110,
+				113,
+				116,
+				118,
+				121,
+				124,
+				156
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				1,
+				6,
+				11,
+				14,
+				17,
+				22,
+				25,
+				28,
+				31,
+				34,
+				37,
+				40,
+				47,
+				50,
+				59,
+				64,
+				67,
+				70,
+				73,
+				78,
+				81,
+				84,
+				85,
+				88,
+				91,
+				95,
+				98,
+				103,
+				106,
+				109,
+				112,
+				115,
+				120,
+				123
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				3,
+				5,
+				8,
+				10,
+				13,
+				16,
+				19,
+				21,
+				24,
+				27,
+				30,
+				33,
+				36,
+				39,
+				42,
+				44,
+				46,
+				49,
+				51,
+				54,
+				56,
+				58,
+				61,
+				63,
+				66,
+				69,
+				72,
+				75,
+				77,
+				80,
+				83,
+				87,
+				90,
+				92,
+				94,
+				97,
+				100,
+				102,
+				105,
+				108,
+				111,
+				114,
+				117,
+				119,
+				122,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				157
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/xTools_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 113,
+			"path" : "Source/Modbus/Source/xToolsModbus.cmake",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 114,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Modbus/Source/xToolsModbusStudio.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 115,
+			"path" : "Source/Modbus/Source/xToolsModbusStudio.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 116,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Modbus/Source/xToolsModbusStudioUi.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 117,
+			"path" : "Source/Modbus/Source/xToolsModbusStudioUi.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 118,
+			"path" : "Source/Modbus/Source/xToolsModbusStudioUi.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 119,
+			"compileGroupIndex" : 0,
+			"path" : "Source/CANBus/Source/xToolsCanBusStudio.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 120,
+			"path" : "Source/CANBus/Source/xToolsCanBusStudio.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 121,
+			"compileGroupIndex" : 0,
+			"path" : "Source/CANBus/Source/xToolsCanBusStudioUi.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 122,
+			"path" : "Source/CANBus/Source/xToolsCanBusStudioUi.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 123,
+			"path" : "Source/CANBus/Source/xToolsCanBusStudioUi.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 124,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Assistants/CRC/Source/xToolsCRCAssistant.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 125,
+			"path" : "Source/Assistants/CRC/Source/xToolsCRCAssistant.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 126,
+			"path" : "Source/Assistants/CRC/Source/xToolsCRCAssistant.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 127,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Assistants/mDNS/Source/xToolsMdnsAssistant.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 128,
+			"path" : "Source/Assistants/mDNS/Source/xToolsMdnsAssistant.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 129,
+			"path" : "Source/Assistants/mDNS/Source/xToolsMdnsAssistant.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 130,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Assistants/mDNS/Source/xToolsMdnsServer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 131,
+			"path" : "Source/Assistants/mDNS/Source/xToolsMdnsServer.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 132,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Assistants/Ping/Source/xToolsPingAssistant.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 133,
+			"path" : "Source/Assistants/Ping/Source/xToolsPingAssistant.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 134,
+			"path" : "Source/Assistants/Ping/Source/xToolsPingAssistant.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 135,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Assistants/ASCII/Source/xToolsAsciiAssistant.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 136,
+			"path" : "Source/Assistants/ASCII/Source/xToolsAsciiAssistant.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 137,
+			"path" : "Source/Assistants/ASCII/Source/xToolsAsciiAssistant.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 138,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Assistants/Base64/Source/xToolsBase64Assisatnt.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 139,
+			"path" : "Source/Assistants/Base64/Source/xToolsBase64Assisatnt.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 140,
+			"path" : "Source/Assistants/Base64/Source/xToolsBase64Assisatnt.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 141,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Assistants/Number/Source/xToolsNumberAssistant.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 142,
+			"path" : "Source/Assistants/Number/Source/xToolsNumberAssistant.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 143,
+			"path" : "Source/Assistants/Number/Source/xToolsNumberAssistant.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 144,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Assistants/String/Source/xToolsStringAssistant.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 145,
+			"path" : "Source/Assistants/String/Source/xToolsStringAssistant.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 146,
+			"path" : "Source/Assistants/String/Source/xToolsStringAssistant.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 147,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Assistants/QRCode/Source/xToolsQRCideAssistant.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 148,
+			"path" : "Source/Assistants/QRCode/Source/xToolsQRCodeAssistant.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 149,
+			"path" : "Source/Assistants/QRCode/Source/xToolsQRCodeAssistant.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 150,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Assistants/Broadcast/Source/xToolsBroadcastAssistant.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 151,
+			"path" : "Source/Assistants/Broadcast/Source/xToolsBroadcastAssistant.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 152,
+			"path" : "Source/Assistants/Broadcast/Source/xToolsBroadcastAssistant.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 153,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Assistants/Broadcast/Source/xToolsBroadcastThread.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 154,
+			"path" : "Source/Assistants/Broadcast/Source/xToolsBroadcastThread.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 155,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Assistants/FileCheck/Source/xToolsCryptographicHashCalculator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 156,
+			"path" : "Source/Assistants/FileCheck/Source/xToolsCryptographicHashCalculator.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 157,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Assistants/FileCheck/Source/xToolsFileCheckAssistant.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 158,
+			"path" : "Source/Assistants/FileCheck/Source/xToolsFileCheckAssistant.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 159,
+			"path" : "Source/Assistants/FileCheck/Source/xToolsFileCheckAssistant.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 160,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Assistants/FileMerge/Source/xToolsFileMergeAssistant.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 161,
+			"path" : "Source/Assistants/FileMerge/Source/xToolsFileMergeAssistant.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 162,
+			"path" : "Source/Assistants/FileMerge/Source/xToolsFileMergeAssistant.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 163,
+			"path" : "Source/Assistants/xToolsAssistantFactory.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 164,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Assistants/xToolsAssistantFactory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 165,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Application.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 166,
+			"path" : "Source/Application.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 167,
+			"compileGroupIndex" : 0,
+			"path" : "Source/MainWindow.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 168,
+			"path" : "Source/MainWindow.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 169,
+			"compileGroupIndex" : 0,
+			"path" : "Source/SystemTrayIcon.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 170,
+			"path" : "Source/SystemTrayIcon.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 171,
+			"path" : "xTools.qrc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 172,
+			"compileGroupIndex" : 0,
+			"path" : "Source/ToolBox/ToolBox/xToolsToolBox.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 173,
+			"path" : "Source/ToolBox/ToolBox/xToolsToolBox.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 174,
+			"compileGroupIndex" : 0,
+			"path" : "Source/ToolBox/ToolBoxUI/xToolsToolBoxUi.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 175,
+			"path" : "Source/ToolBox/ToolBoxUI/xToolsToolBoxUi.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 176,
+			"path" : "Source/ToolBox/ToolBoxUI/xToolsToolBoxUi.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 177,
+			"compileGroupIndex" : 0,
+			"path" : "Source/ToolBox/ToolBoxUI/xToolsToolBoxUiCommunicationMenu.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 178,
+			"path" : "Source/ToolBox/ToolBoxUI/xToolsToolBoxUiCommunicationMenu.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 179,
+			"path" : "Source/ToolBox/ToolBoxUI/xToolsToolBoxUiCommunicationMenu.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 180,
+			"compileGroupIndex" : 0,
+			"path" : "Source/ToolBox/ToolBoxUI/xToolsToolBoxUiInputMenu.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 181,
+			"path" : "Source/ToolBox/ToolBoxUI/xToolsToolBoxUiInputMenu.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 182,
+			"path" : "Source/ToolBox/ToolBoxUI/xToolsToolBoxUiInputMenu.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 183,
+			"compileGroupIndex" : 0,
+			"path" : "Source/ToolBox/ToolBoxUI/xToolsToolBoxUiOutputMenu.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 184,
+			"path" : "Source/ToolBox/ToolBoxUI/xToolsToolBoxUiOutputMenu.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 185,
+			"path" : "Source/ToolBox/ToolBoxUI/xToolsToolBoxUiOutputMenu.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 186,
+			"compileGroupIndex" : 0,
+			"path" : "Source/network/creator/JmessageStruct.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 187,
+			"path" : "Source/network/creator/JmessageStruct.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 188,
+			"compileGroupIndex" : 0,
+			"path" : "Source/network/creator/choose1.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 189,
+			"path" : "Source/network/creator/choose1.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 190,
+			"path" : "Source/network/creator/choose1.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 191,
+			"compileGroupIndex" : 0,
+			"path" : "Source/network/creator/enterparameter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 192,
+			"path" : "Source/network/creator/enterparameter.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 193,
+			"path" : "Source/network/creator/enterparameter.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 194,
+			"compileGroupIndex" : 0,
+			"path" : "Source/network/creator/link11parts.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 195,
+			"path" : "Source/network/creator/link11parts.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 196,
+			"path" : "Source/network/creator/link11parts.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 197,
+			"path" : "Source/network/creator/link11parts.ui.autosave",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 198,
+			"compileGroupIndex" : 0,
+			"path" : "Source/network/creator/login.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 199,
+			"path" : "Source/network/creator/login.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 200,
+			"path" : "Source/network/creator/login.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 201,
+			"compileGroupIndex" : 0,
+			"path" : "Source/network/creator/maincontrol.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 202,
+			"path" : "Source/network/creator/maincontrol.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 203,
+			"path" : "Source/network/creator/maincontrol.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 204,
+			"path" : "Source/network/creator/msg.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 205,
+			"compileGroupIndex" : 0,
+			"path" : "Source/network/creator/ncbelow_table.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 206,
+			"path" : "Source/network/creator/ncbelow_table.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 207,
+			"path" : "Source/network/creator/ncbelow_table.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 208,
+			"compileGroupIndex" : 0,
+			"path" : "Source/network/creator/ncright_table.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 209,
+			"path" : "Source/network/creator/ncright_table.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 210,
+			"path" : "Source/network/creator/ncright_table.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 211,
+			"compileGroupIndex" : 0,
+			"path" : "Source/network/creator/networkNeedWidget.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 212,
+			"path" : "Source/network/creator/networkNeedWidget.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 213,
+			"compileGroupIndex" : 0,
+			"path" : "Source/network/creator/new_dev_ui.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 214,
+			"path" : "Source/network/creator/new_dev_ui.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 215,
+			"path" : "Source/network/creator/new_dev_ui.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 216,
+			"compileGroupIndex" : 0,
+			"path" : "Source/network/creator/new_pac_ui.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 217,
+			"path" : "Source/network/creator/new_pac_ui.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 218,
+			"path" : "Source/network/creator/new_pac_ui.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 219,
+			"compileGroupIndex" : 0,
+			"path" : "Source/network/creator/new_par_ui.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 220,
+			"path" : "Source/network/creator/new_par_ui.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 221,
+			"path" : "Source/network/creator/new_par_ui.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 222,
+			"compileGroupIndex" : 0,
+			"path" : "Source/network/creator/selectparameters.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 223,
+			"path" : "Source/network/creator/selectparameters.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 224,
+			"path" : "Source/network/creator/selectparameters.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 225,
+			"compileGroupIndex" : 0,
+			"path" : "Source/network/creator/simulator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 226,
+			"path" : "Source/network/creator/simulator.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 227,
+			"path" : "Source/network/creator/simulator.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 228,
+			"compileGroupIndex" : 0,
+			"path" : "Source/network/creator/udpcliet.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 229,
+			"path" : "Source/network/creator/udpcliet.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 230,
+			"compileGroupIndex" : 0,
+			"path" : "Source/network/creator/widget.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 231,
+			"path" : "Source/network/creator/widget.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 232,
+			"path" : "Source/network/creator/widget.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 233,
+			"compileGroupIndex" : 0,
+			"path" : "Source/electr/creator/xToolsEleAsciiAssistant.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 234,
+			"path" : "Source/electr/creator/xToolsEleAsciiAssistant.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 235,
+			"path" : "Source/electr/creator/xToolsEleAsciiAssistant.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 236,
+			"compileGroupIndex" : 0,
+			"path" : "Source/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/xTools_autogen/include/Source/Modbus/Source/ui_xToolsModbusStudioUi.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/xTools_autogen/include/Source/CANBus/Source/ui_xToolsCanBusStudioUi.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/xTools_autogen/include/Source/Assistants/CRC/Source/ui_xToolsCRCAssistant.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/xTools_autogen/include/Source/Assistants/mDNS/Source/ui_xToolsMdnsAssistant.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/xTools_autogen/include/Source/Assistants/Ping/Source/ui_xToolsPingAssistant.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/xTools_autogen/include/Source/Assistants/ASCII/Source/ui_xToolsAsciiAssistant.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/xTools_autogen/include/Source/Assistants/Base64/Source/ui_xToolsBase64Assisatnt.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/xTools_autogen/include/Source/Assistants/Number/Source/ui_xToolsNumberAssistant.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/xTools_autogen/include/Source/Assistants/String/Source/ui_xToolsStringAssistant.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/xTools_autogen/include/Source/Assistants/QRCode/Source/ui_xToolsQRCodeAssistant.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/xTools_autogen/include/Source/Assistants/Broadcast/Source/ui_xToolsBroadcastAssistant.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/xTools_autogen/include/Source/Assistants/FileCheck/Source/ui_xToolsFileCheckAssistant.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/xTools_autogen/include/Source/Assistants/FileMerge/Source/ui_xToolsFileMergeAssistant.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/xTools_autogen/include/Source/ToolBox/ToolBoxUI/ui_xToolsToolBoxUi.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/xTools_autogen/include/Source/ToolBox/ToolBoxUI/ui_xToolsToolBoxUiCommunicationMenu.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/xTools_autogen/include/Source/ToolBox/ToolBoxUI/ui_xToolsToolBoxUiInputMenu.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/xTools_autogen/include/Source/ToolBox/ToolBoxUI/ui_xToolsToolBoxUiOutputMenu.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/xTools_autogen/include/Source/network/creator/ui_choose1.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/xTools_autogen/include/Source/network/creator/ui_enterparameter.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/xTools_autogen/include/Source/network/creator/ui_link11parts.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/xTools_autogen/include/Source/network/creator/ui_login.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/xTools_autogen/include/Source/network/creator/ui_maincontrol.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/xTools_autogen/include/Source/network/creator/ui_ncbelow_table.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/xTools_autogen/include/Source/network/creator/ui_ncright_table.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/xTools_autogen/include/Source/network/creator/ui_new_dev_ui.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/xTools_autogen/include/Source/network/creator/ui_new_pac_ui.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/xTools_autogen/include/Source/network/creator/ui_new_par_ui.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/xTools_autogen/include/Source/network/creator/ui_selectparameters.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/xTools_autogen/include/Source/network/creator/ui_simulator.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/xTools_autogen/include/Source/network/creator/ui_widget.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/xTools_autogen/include/Source/electr/creator/ui_xToolsEleAsciiAssistant.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/xTools_autogen/EWIEGA46WW/qrc_xTools.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/xTools_autogen/EWIEGA46WW/qrc_xTools.cpp.rule",
+			"sourceGroupIndex" : 3
+		}
+	],
+	"type" : "EXECUTABLE"
+}

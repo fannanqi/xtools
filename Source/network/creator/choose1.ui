@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>choose1</class>
+ <widget class="QWidget" name="choose1">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>2004</width>
+    <height>986</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QPushButton" name="pushButton4">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>890</y>
+     <width>311</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{  
+    background-color: #808080; /* 背景颜色 */  
+    color: #FFFFFF; /* 文字颜色 */  
+    border: 1px solid gray; /* 边框宽度、样式和颜色 */  
+    border-top-left-radius: 10px; /* 左上角圆角 */  
+    border-top-right-radius: 10px; /* 右上角圆角 */  
+    border-bottom-left-radius: 10px; /* 左下角圆角 */  
+    border-bottom-right-radius: 10px; /* 右下角圆角 */  
+    padding: 5px 15px; /* 内边距，这里我稍微调整了水平内边距以匹配原始CSS的视觉效果 */  
+    font-size: 16px; /* 注意：Qt样式表不支持直接设置字体大小，这通常需要在控件的父窗口或应用程序级别设置 */  
+    transition: background-color 0.3s; /* 背景颜色过渡效果，Qt支持此属性 */  
+}  
+  
+QPushButton:hover {
+    /* 悬停时的样式 */
+    background-color: #007bff; /* 蓝色背景 */
+}
+
+QPushButton:pressed {
+    /* 按下时的样式 */
+    background-color: #0056b3; /* 更深的蓝色背景 */
+
+}</string>
+   </property>
+   <property name="text">
+    <string>下一步</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>850</x>
+     <y>30</y>
+     <width>231</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:600;&quot;&gt;选择模拟器&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>100</y>
+     <width>1841</width>
+     <height>741</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="tab1">
+    <attribute name="title">
+     <string>Tab 1</string>
+    </attribute>
+   </widget>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>1730</x>
+     <y>80</y>
+     <width>181</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>请选择波形</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Link4A</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Link11</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Link11B</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Link16</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>TTNT</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Sincgars</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>HaveQuick</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>EPLRS</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>常规模拟</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>常规数字</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>模拟J链</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>模拟UV链</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>模拟171链</string>
+    </property>
+   </item>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

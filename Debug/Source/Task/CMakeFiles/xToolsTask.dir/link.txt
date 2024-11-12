@@ -1,0 +1,2 @@
+/usr/bin/ar qc libxToolsTask.a CMakeFiles/xToolsTask.dir/xToolsTask_autogen/mocs_compilation.cpp.o CMakeFiles/xToolsTask.dir/source/canttchartscene.cpp.o CMakeFiles/xToolsTask.dir/source/canttchartview.cpp.o CMakeFiles/xToolsTask.dir/source/cantttimebaritem.cpp.o CMakeFiles/xToolsTask.dir/source/taskFileMergeAssistant.cpp.o CMakeFiles/xToolsTask.dir/xToolsTask_autogen/EWIEGA46WW/qrc_img.cpp.o
+/usr/bin/ranlib libxToolsTask.a

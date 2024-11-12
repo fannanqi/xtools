@@ -1,0 +1,305 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						4,
+						5,
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						4,
+						7,
+						8,
+						13
+					]
+				},
+				{
+					"build" : "ThirdParty/libqrencode-master",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ThirdParty.libqrencode-master-Debug-0359025162a506beb132.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "ThirdParty/libqrencode-master",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"build" : "ThirdParty/qmdnsengine-master",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ThirdParty.qmdnsengine-master-Debug-fb701df1ae9b70bd3c8e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "ThirdParty/qmdnsengine-master"
+				},
+				{
+					"build" : "ThirdParty/qmdnsengine-master/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ThirdParty.qmdnsengine-master.src-Debug-4a9ef3d7b2a4de22f920.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "ThirdParty/qmdnsengine-master/src",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "Source/Common",
+					"jsonFile" : "directory-Source.Common-Debug-eafe896dfdfb5b74cb5d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Source/Common",
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				},
+				{
+					"build" : "Source/Tools",
+					"jsonFile" : "directory-Source.Tools-Debug-9da04913a621cbdad5eb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Source/Tools",
+					"targetIndexes" : 
+					[
+						11,
+						12
+					]
+				},
+				{
+					"build" : "Source/Task",
+					"jsonFile" : "directory-Source.Task-Debug-4758a00584fcafb34dbf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Source/Task",
+					"targetIndexes" : 
+					[
+						9,
+						10
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						4,
+						5,
+						6
+					],
+					"name" : "xTools",
+					"targetIndexes" : 
+					[
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "QRencode",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3
+					],
+					"name" : "qmdnsengine",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "qmdnsengine::@dfe4569bdf61c26b5e92",
+					"jsonFile" : "target-qmdnsengine-Debug-46b8ab5d2a9b6069c8d2.json",
+					"name" : "qmdnsengine",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "qmdnsengine_autogen::@dfe4569bdf61c26b5e92",
+					"jsonFile" : "target-qmdnsengine_autogen-Debug-88708a2be91f3dca2f55.json",
+					"name" : "qmdnsengine_autogen",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "qrencode::@dcc603b84b47c31c3a04",
+					"jsonFile" : "target-qrencode-Debug-4b199353d148ab0bc4c0.json",
+					"name" : "qrencode",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "qrencode_autogen::@dcc603b84b47c31c3a04",
+					"jsonFile" : "target-qrencode_autogen-Debug-9452f9117c4e86e5ae6b.json",
+					"name" : "qrencode_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xTools::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xTools-Debug-c13bcd285c72c948fe87.json",
+					"name" : "xTools",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "xToolsCommon::@db1505eb558fbb8cb9af",
+					"jsonFile" : "target-xToolsCommon-Debug-954a5eb3f4c4ee886b8c.json",
+					"name" : "xToolsCommon",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "xToolsCommon_autogen::@db1505eb558fbb8cb9af",
+					"jsonFile" : "target-xToolsCommon_autogen-Debug-3916ae34ff7f6edb3fc9.json",
+					"name" : "xToolsCommon_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xToolsCore::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xToolsCore-Debug-081a7df9cc0450c67aca.json",
+					"name" : "xToolsCore",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xToolsCore_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xToolsCore_autogen-Debug-028f40ad048e8e66a8ea.json",
+					"name" : "xToolsCore_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "xToolsTask::@af24ee6e9327d34d50f2",
+					"jsonFile" : "target-xToolsTask-Debug-5eeb9a7c2b290b1b41a3.json",
+					"name" : "xToolsTask",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "xToolsTask_autogen::@af24ee6e9327d34d50f2",
+					"jsonFile" : "target-xToolsTask_autogen-Debug-76dd6662980e5da745a3.json",
+					"name" : "xToolsTask_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "xToolsTools::@fe417c6d97d7eccb8d07",
+					"jsonFile" : "target-xToolsTools-Debug-863e4f1fae13566368e5.json",
+					"name" : "xToolsTools",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "xToolsTools_autogen::@fe417c6d97d7eccb8d07",
+					"jsonFile" : "target-xToolsTools_autogen-Debug-f104fe387599b11d30a1.json",
+					"name" : "xToolsTools_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xTools_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xTools_autogen-Debug-d19013e66edd6cedcfbd.json",
+					"name" : "xTools_autogen",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/apple/Desktop/x-tools-6.0.1/Debug",
+		"source" : "/Users/apple/Desktop/x-tools-6.0.1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

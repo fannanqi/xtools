@@ -1,0 +1,37 @@
+{
+	"BUILD_DIR" : "/Users/apple/Desktop/x-tools-6.0.1/Debug/Source/Task/xToolsTask_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/apple/Desktop/x-tools-6.0.1/Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/apple/Desktop/x-tools-6.0.1/Debug/Source/Task",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Task",
+	"CMAKE_SOURCE_DIR" : "/Users/apple/Desktop/x-tools-6.0.1",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Unix Makefiles",
+	"INCLUDE_DIR" : "/Users/apple/Desktop/x-tools-6.0.1/Debug/Source/Task/xToolsTask_autogen/include",
+	"INPUTS" : 
+	[
+		"/Users/apple/Desktop/x-tools-6.0.1/Source/Task/img/window/bottom-background.png",
+		"/Users/apple/Desktop/x-tools-6.0.1/Source/Task/img/event/takeoff.png",
+		"/Users/apple/Desktop/x-tools-6.0.1/Source/Task/img/event/switchchannel.png",
+		"/Users/apple/Desktop/x-tools-6.0.1/Source/Task/img/event/land.png",
+		"/Users/apple/Desktop/x-tools-6.0.1/Source/Task/img/button/left-arrow.png",
+		"/Users/apple/Desktop/x-tools-6.0.1/Source/Task/img/button/add-datatype.png",
+		"/Users/apple/Desktop/x-tools-6.0.1/Source/Task/img/button/bottom-arrow.png",
+		"/Users/apple/Desktop/x-tools-6.0.1/Source/Task/img/button/right-arrow.png",
+		"/Users/apple/Desktop/x-tools-6.0.1/Source/Task/img/button/top-arrow.png",
+		"/Users/apple/Desktop/x-tools-6.0.1/Source/Task/img/button/load.png",
+		"/Users/apple/Desktop/x-tools-6.0.1/Source/Task/img/checkbox/timebar-hide.png",
+		"/Users/apple/Desktop/x-tools-6.0.1/Source/Task/img/checkbox/timebar-show.png",
+		"/Users/apple/Desktop/x-tools-6.0.1/Source/Task/img/plane/plane-red.png",
+		"/Users/apple/Desktop/x-tools-6.0.1/Source/Task/img/plane/plane-white.png"
+	],
+	"LOCK_FILE" : "/Users/apple/Desktop/x-tools-6.0.1/Debug/Source/Task/CMakeFiles/xToolsTask_autogen.dir/AutoRcc_img_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "img" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_img.cpp",
+	"RCC_EXECUTABLE" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/Users/apple/Desktop/x-tools-6.0.1/Debug/Source/Task/CMakeFiles/xToolsTask_autogen.dir/AutoRcc_img_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Task/img.qrc",
+	"VERBOSITY" : 0
+}

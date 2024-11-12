@@ -1,0 +1,25 @@
+{
+	"BUILD_DIR" : "/Users/apple/Desktop/x-tools-6.0.1/build/Source/Tools/xToolsTools_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/apple/Desktop/x-tools-6.0.1/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/apple/Desktop/x-tools-6.0.1/build/Source/Tools",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Tools",
+	"CMAKE_SOURCE_DIR" : "/Users/apple/Desktop/x-tools-6.0.1",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Unix Makefiles",
+	"INCLUDE_DIR" : "/Users/apple/Desktop/x-tools-6.0.1/build/Source/Tools/xToolsTools_autogen/include",
+	"INPUTS" : 
+	[
+		"/Users/apple/Desktop/x-tools-6.0.1/Source/Tools/Resources/Translations/xToolsTools_zh_CN.qm",
+		"/Users/apple/Desktop/x-tools-6.0.1/Source/Tools/Resources/Translations/xToolsTools_en.qm"
+	],
+	"LOCK_FILE" : "/Users/apple/Desktop/x-tools-6.0.1/build/Source/Tools/CMakeFiles/xToolsTools_autogen.dir/AutoRcc_xToolsTools_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "xToolsTools" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_xToolsTools.cpp",
+	"RCC_EXECUTABLE" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/Users/apple/Desktop/x-tools-6.0.1/build/Source/Tools/CMakeFiles/xToolsTools_autogen.dir/AutoRcc_xToolsTools_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Tools/xToolsTools.qrc",
+	"VERBOSITY" : 0
+}

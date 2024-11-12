@@ -1,0 +1,33 @@
+{
+	"BUILD_DIR" : "/Users/apple/Desktop/x-tools-6.0.1/build/Source/Common/xToolsCommon_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/apple/Desktop/x-tools-6.0.1/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/apple/Desktop/x-tools-6.0.1/build/Source/Common",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Common",
+	"CMAKE_SOURCE_DIR" : "/Users/apple/Desktop/x-tools-6.0.1",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Unix Makefiles",
+	"INCLUDE_DIR" : "/Users/apple/Desktop/x-tools-6.0.1/build/Source/Common/xToolsCommon_autogen/include",
+	"INPUTS" : 
+	[
+		"/Users/apple/Desktop/x-tools-6.0.1/Source/Common/Resources/Icons/GitHub.svg",
+		"/Users/apple/Desktop/x-tools-6.0.1/Source/Common/Resources/Icons/IconQQ.svg",
+		"/Users/apple/Desktop/x-tools-6.0.1/Source/Common/Resources/Icons/Gitee.svg",
+		"/Users/apple/Desktop/x-tools-6.0.1/Source/Common/Resources/Icons/Unregistered.svg",
+		"/Users/apple/Desktop/x-tools-6.0.1/Source/Common/Resources/Translations/xToolsCommon_zh_CN.qm",
+		"/Users/apple/Desktop/x-tools-6.0.1/Source/Common/Resources/Translations/xToolsCommon_en.qm",
+		"/Users/apple/Desktop/x-tools-6.0.1/Source/Common/Resources/Images/UserQQ.jpg",
+		"/Users/apple/Desktop/x-tools-6.0.1/Source/Common/Resources/Images/QtQQ.jpg",
+		"/Users/apple/Desktop/x-tools-6.0.1/Source/Common/Resources/Palettes/LightPalette",
+		"/Users/apple/Desktop/x-tools-6.0.1/Source/Common/Resources/Palettes/DarkPalette"
+	],
+	"LOCK_FILE" : "/Users/apple/Desktop/x-tools-6.0.1/build/Source/Common/CMakeFiles/xToolsCommon_autogen.dir/AutoRcc_xToolsCommon_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "xToolsCommon" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_xToolsCommon.cpp",
+	"RCC_EXECUTABLE" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/Users/apple/Desktop/x-tools-6.0.1/build/Source/Common/CMakeFiles/xToolsCommon_autogen.dir/AutoRcc_xToolsCommon_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Common/xToolsCommon.qrc",
+	"VERBOSITY" : 0
+}

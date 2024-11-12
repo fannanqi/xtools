@@ -1,0 +1,110 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"ThirdParty/qmdnsengine-master/src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 66,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 74,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 86,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"ThirdParty/qmdnsengine-master/src/libqmdnsengine.a"
+			],
+			"targetId" : "qmdnsengine::@dfe4569bdf61c26b5e92",
+			"targetIndex" : 0,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/qmdnsengine",
+			"paths" : 
+			[
+				"ThirdParty/qmdnsengine-master/src/include/qmdnsengine/abstractserver.h",
+				"ThirdParty/qmdnsengine-master/src/include/qmdnsengine/bitmap.h",
+				"ThirdParty/qmdnsengine-master/src/include/qmdnsengine/browser.h",
+				"ThirdParty/qmdnsengine-master/src/include/qmdnsengine/cache.h",
+				"ThirdParty/qmdnsengine-master/src/include/qmdnsengine/dns.h",
+				"ThirdParty/qmdnsengine-master/src/include/qmdnsengine/hostname.h",
+				"ThirdParty/qmdnsengine-master/src/include/qmdnsengine/mdns.h",
+				"ThirdParty/qmdnsengine-master/src/include/qmdnsengine/message.h",
+				"ThirdParty/qmdnsengine-master/src/include/qmdnsengine/prober.h",
+				"ThirdParty/qmdnsengine-master/src/include/qmdnsengine/provider.h",
+				"ThirdParty/qmdnsengine-master/src/include/qmdnsengine/query.h",
+				"ThirdParty/qmdnsengine-master/src/include/qmdnsengine/record.h",
+				"ThirdParty/qmdnsengine-master/src/include/qmdnsengine/resolver.h",
+				"ThirdParty/qmdnsengine-master/src/include/qmdnsengine/server.h",
+				"ThirdParty/qmdnsengine-master/src/include/qmdnsengine/service.h",
+				"build/ThirdParty/qmdnsengine-master/src/qmdnsengine_export.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/qmdnsengine",
+			"exportName" : "qmdnsengine-export",
+			"exportTargets" : 
+			[
+				{
+					"id" : "qmdnsengine::@dfe4569bdf61c26b5e92",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"ThirdParty/qmdnsengine-master/src/CMakeFiles/Export/a37091932cd5bb4ab4add08ef219ad85/qmdnsengineConfig.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/qmdnsengine",
+			"paths" : 
+			[
+				"build/ThirdParty/qmdnsengine-master/src/qmdnsengineConfigVersion.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "ThirdParty/qmdnsengine-master/src",
+		"source" : "ThirdParty/qmdnsengine-master/src"
+	}
+}

@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SelectParameters</class>
+ <widget class="QMainWindow" name="SelectParameters">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>2276</width>
+    <height>933</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">/* 设置整个界面的背景颜色 */
+QWidget {
+    background-color: #121636;
+	color: #FFFFFF;   
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="SaveButton">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>820</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">    QPushButton {
+        background-color: blue;      /* Set the background color */
+        color: white;                /* Set the text color */
+        border: none;                /* Remove default borders */
+        border-radius: 15px;         /* Set rounded corners (ellipse shape) */
+        padding: 10px 20px;          /* Add padding to adjust the size */
+    }
+    QPushButton:hover {
+        background-color: lightblue; /* Change color on hover */
+    }
+    QPushButton:pressed {
+        background-color: darkblue;  /* Change color when pressed */
+    }</string>
+    </property>
+    <property name="text">
+     <string>保存</string>
+    </property>
+   </widget>
+   <widget class="QTreeWidget" name="treeWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>20</y>
+      <width>211</width>
+      <height>761</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTreeWidget {
+    border: none;
+    background-color: #121636; /* 背景颜色与界面一致 */
+    color: #FFFFFF;            /* 字体颜色为白色 */
+    show-decoration-selected: 1; /* 使选中的项显示装饰 */
+    font-family: 'Arial';
+    font-size: 12px;
+    padding: 0px;
+    margin: 0px;
+}
+
+QTreeWidget::branch {
+    border-image: none;
+}
+
+QTreeWidget::item {
+    background-color: #121636; /* 项的背景颜色 */
+    color: #FFFFFF;            /* 项的字体颜色 */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;         /* Adjusted for consistency */
+    padding-bottom: 5px;      /* Adjusted for consistency */
+    border-radius: 4px;
+    border: 1px solid transparent;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+QTreeWidget::item:hover {
+    border: 1px solid #C0C0C0; /* Optional: keep the border */
+    background-color: #2E2E2E; /* A darker grey for hover */
+}
+
+QTreeWidget::item:selected {
+    background-color: #0000FF; /* 选中项的背景颜色为蓝色 */
+    color: #FFFFFF;            /* 选中项的字体颜色 */
+}
+
+QTreeWidget::item:selected:!active {
+    border: 1px solid #B0DDBD;
+}
+
+QTreeWidget::item:active {
+    border: 1px solid #333333;
+}
+
+QTreeWidget::indicator {
+    width: 12px;
+    height: 12px;
+}
+
+/* 隐藏 QTreeWidget 的滚动条 */
+QTreeWidget QScrollBar:vertical {
+    width: 0px;
+}
+
+QTreeWidget QScrollBar:horizontal {
+    height: 0px;
+}
+</string>
+    </property>
+    <attribute name="headerVisible">
+     <bool>false</bool>
+    </attribute>
+    <column>
+     <property name="text">
+      <string notr="true">1</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>10</y>
+      <width>1781</width>
+      <height>791</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout" stretch="100,5">
+     <item>
+      <widget class="QWidget" name="Widget" native="true">
+       <widget class="QLabel" name="label3">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>20</y>
+          <width>123</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="widget3" native="true">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>1671</width>
+          <height>761</height>
+         </rect>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>2000</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QWidget#widget3 {
+    border: 2px solid lightblue;
+    border-top-right-radius: 0px;  /* 右上角为方角 */
+    border-top-left-radius: 0px;   /* 左上角为方角 */
+    border-bottom-right-radius: 10px; /* 右下角为圆角 */
+    border-bottom-left-radius: 10px;  /* 左下角为圆角 */
+}
+</string>
+        </property>
+        <widget class="QStackedWidget" name="stackedWidget">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>50</y>
+           <width>1641</width>
+           <height>701</height>
+          </rect>
+         </property>
+         <property name="currentIndex">
+          <number>0</number>
+         </property>
+         <widget class="QWidget" name="Link11parts"/>
+         <widget class="QWidget" name="page2"/>
+        </widget>
+        <widget class="QLabel" name="label_24">
+         <property name="geometry">
+          <rect>
+           <x>1570</x>
+           <y>10</y>
+           <width>90</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#00aaff;&quot;&gt;查看网络成员&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="widget2" native="true">
+        <property name="geometry">
+         <rect>
+          <x>150</x>
+          <y>10</y>
+          <width>31</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-left: 2px solid lightblue;
+border-top: 2px solid lightblue;
+border-right: none;
+border-bottom: 2px solid lightblue;</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="widget1" native="true">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>1671</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-left: 2px solid lightblue;
+border-top: 2px solid lightblue;
+border-right: 2px solid lightblue;
+border-bottom: none;
+</string>
+        </property>
+       </widget>
+       <zorder>widget3</zorder>
+       <zorder>label3</zorder>
+       <zorder>widget2</zorder>
+       <zorder>widget1</zorder>
+      </widget>
+     </item>
+     <item>
+      <spacer name="verticalSpacer">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Minimum</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>768</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="btn_dev">
+   <property name="text">
+    <string>设备管理</string>
+   </property>
+  </action>
+  <action name="pac_btn">
+   <property name="text">
+    <string>报文管理</string>
+   </property>
+  </action>
+  <action name="par_btn">
+   <property name="text">
+    <string>参数管理</string>
+   </property>
+  </action>
+  <action name="btn_pac">
+   <property name="text">
+    <string>报文管理</string>
+   </property>
+  </action>
+  <action name="btn_par">
+   <property name="text">
+    <string>参数管理</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

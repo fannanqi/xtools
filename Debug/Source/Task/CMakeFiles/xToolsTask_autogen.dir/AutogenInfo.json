@@ -1,0 +1,187 @@
+{
+	"BUILD_DIR" : "/Users/apple/Desktop/x-tools-6.0.1/Debug/Source/Task/xToolsTask_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/apple/Desktop/x-tools-6.0.1/Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/apple/Desktop/x-tools-6.0.1/Debug/Source/Task",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Task",
+	"CMAKE_EXECUTABLE" : "/Applications/CMake.app/Contents/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/Users/apple/Desktop/x-tools-6.0.1/Source/Task/CMakeLists.txt",
+		"/Users/apple/Desktop/x-tools-6.0.1/Source/Task/img.qrc"
+	],
+	"CMAKE_SOURCE_DIR" : "/Users/apple/Desktop/x-tools-6.0.1",
+	"CROSS_CONFIG" : false,
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/Users/apple/Desktop/x-tools-6.0.1/Source/Task/source/canttchartscene.h",
+			"MU",
+			"CAWN4ZDDTK/moc_canttchartscene.cpp",
+			null
+		],
+		[
+			"/Users/apple/Desktop/x-tools-6.0.1/Source/Task/source/canttchartview.h",
+			"MU",
+			"CAWN4ZDDTK/moc_canttchartview.cpp",
+			null
+		],
+		[
+			"/Users/apple/Desktop/x-tools-6.0.1/Source/Task/source/cantttimebaritem.h",
+			"MU",
+			"CAWN4ZDDTK/moc_cantttimebaritem.cpp",
+			null
+		],
+		[
+			"/Users/apple/Desktop/x-tools-6.0.1/Source/Task/source/definition.h",
+			"MU",
+			"CAWN4ZDDTK/moc_definition.cpp",
+			null
+		],
+		[
+			"/Users/apple/Desktop/x-tools-6.0.1/Source/Task/source/taskFileMergeAssistant.h",
+			"MU",
+			"CAWN4ZDDTK/moc_taskFileMergeAssistant.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/Users/apple/Desktop/x-tools-6.0.1/Debug/Source/Task/xToolsTask_autogen/include",
+	"MOC_COMPILATION_FILE" : "/Users/apple/Desktop/x-tools-6.0.1/Debug/Source/Task/xToolsTask_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"ACSS_STATIC",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_WIDGETS_LIB",
+		"X_TOOLS_AUTHOR=\"x-tools-author\"",
+		"X_TOOLS_AUTHOR_EMAIL=\"x-tools@outlook.com\"",
+		"X_TOOLS_CLEAR_MESSAGE_INTERVAL=8000",
+		"X_TOOLS_DEFAULT_APP_STYLE=\"Fusion\"",
+		"X_TOOLS_EDITION=\"beta1\"",
+		"X_TOOLS_ENABLE_MODULE_ASCII",
+		"X_TOOLS_ENABLE_MODULE_ASSISTANTS",
+		"X_TOOLS_ENABLE_MODULE_BASE64",
+		"X_TOOLS_ENABLE_MODULE_BROADCAST",
+		"X_TOOLS_ENABLE_MODULE_CANBUS",
+		"X_TOOLS_ENABLE_MODULE_CRC",
+		"X_TOOLS_ENABLE_MODULE_FILECHECK",
+		"X_TOOLS_ENABLE_MODULE_FILEMERGE",
+		"X_TOOLS_ENABLE_MODULE_MDNS",
+		"X_TOOLS_ENABLE_MODULE_MODBUS",
+		"X_TOOLS_ENABLE_MODULE_NUMBER",
+		"X_TOOLS_ENABLE_MODULE_PING",
+		"X_TOOLS_ENABLE_MODULE_QRCODE",
+		"X_TOOLS_ENABLE_MODULE_SERIALBUS",
+		"X_TOOLS_ENABLE_MODULE_SERIALPORT",
+		"X_TOOLS_ENABLE_MODULE_STRING",
+		"X_TOOLS_ENABLE_MODULE_STYLESHEET",
+		"X_TOOLS_GITEE_REPOSITORY_URL=\"https://gitee.com/x-tools-author/x-tools\"",
+		"X_TOOLS_GITHUB_REPOSITORY_URL=\"https://github.com/x-tools-author/x-tools\"",
+		"X_TOOLS_GIT_COMMIT=\"\"",
+		"X_TOOLS_GIT_COMMIT_TIME=\"\"",
+		"X_TOOLS_GIT_TAG=\"\"",
+		"X_TOOLS_VERSION=\"6.0.0\""
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/Users/apple/Desktop/x-tools-6.0.1/ThirdParty/Qt-Advanced-Stylesheets-main/src",
+		"/Users/apple/Desktop/x-tools-6.0.1/Source/Modbus/Source",
+		"/Users/apple/Desktop/x-tools-6.0.1/Source/CANBus/Source",
+		"/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/CRC/Source",
+		"/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/mDNS/Source",
+		"/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/Ping/Source",
+		"/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/ASCII/Source",
+		"/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/Base64/Source",
+		"/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/Number/Source",
+		"/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/String/Source",
+		"/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/QRCode/Source",
+		"/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/Broadcast/Source",
+		"/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/FileCheck/Source",
+		"/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/FileMerge/Source",
+		"/Users/apple/Desktop/x-tools-6.0.1/ThirdParty/libqrencode-master",
+		"/Users/apple/Desktop/x-tools-6.0.1/ThirdParty/qmdnsengine-master",
+		"/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants",
+		"/Users/apple/Desktop/x-tools-6.0.1/Source/Common/Common",
+		"/Users/apple/Desktop/x-tools-6.0.1/Source/Common/CommonUI",
+		"/Users/apple/Desktop/x-tools-6.0.1/Source/Tools/Tools",
+		"/Users/apple/Desktop/x-tools-6.0.1/Source/Tools/ToolsUI",
+		"/Users/apple/Desktop/x-tools-6.0.1/Source/ToolBox/ToolBox",
+		"/Users/apple/Desktop/x-tools-6.0.1/Source/ToolBox/ToolBoxUI",
+		"/Users/apple/Desktop/x-tools-6.0.1/Source/network/creator",
+		"/Users/apple/Desktop/x-tools-6.0.1/Source/electr/creator",
+		"/Users/apple/Desktop/x-tools-6.0.1/Source",
+		"/Users/apple/Desktop/x-tools-6.0.1/Source/task/source",
+		"/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtWidgets.framework",
+		"/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtWidgets.framework/Headers",
+		"/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtGui.framework",
+		"/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtGui.framework/Headers",
+		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/OpenGL.framework/Headers",
+		"/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtCore.framework",
+		"/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtCore.framework/Headers",
+		"/Users/apple/Qt5.12.10/5.12.10/clang_64/mkspecs/macx-clang",
+		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1",
+		"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include",
+		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include",
+		"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/clang",
+		"-std=gnu++14",
+		"-dM",
+		"-E",
+		"-c",
+		"/Applications/CMake.app/Contents/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/Users/apple/Desktop/x-tools-6.0.1/Debug/Source/Task/xToolsTask_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/Users/apple/Desktop/x-tools-6.0.1/Debug/Source/Task/CMakeFiles/xToolsTask_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 12,
+	"SETTINGS_FILE" : "/Users/apple/Desktop/x-tools-6.0.1/Debug/Source/Task/CMakeFiles/xToolsTask_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/Users/apple/Desktop/x-tools-6.0.1/Source/Task/source/canttchartscene.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/apple/Desktop/x-tools-6.0.1/Source/Task/source/canttchartview.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/apple/Desktop/x-tools-6.0.1/Source/Task/source/cantttimebaritem.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/apple/Desktop/x-tools-6.0.1/Source/Task/source/taskFileMergeAssistant.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}
