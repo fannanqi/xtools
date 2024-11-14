@@ -6,7 +6,10 @@
 #include "udpcliet.h"
 #include "ncright_table.h"
 #include "link11parts.h"
-
+class QVBoxLayout;
+class QHBoxLayout;
+class QSplitter;
+class QGroupBox;
 namespace Ui {
 class maincontrol;
 }
@@ -18,38 +21,62 @@ class maincontrol : public QWidget
 public:
     explicit maincontrol(QWidget *parent = nullptr);
     ~maincontrol();
-    QJsonArray getJsonArryByFile(QString filePath);//获取json文件数据
-    bool checkNetNameExists(QTreeWidgetItem* parentItem, const QString& netName);//判断同一场景下网络名称是否重复
-    bool checkSimNameExists(QTreeWidgetItem* parentItem, const QString& simName);//判断同一网络下模拟器是否重复
+    QJsonArray getJsonArryByFile(QString filePath);
+    int generateNewNetID();// 生成唯一的网络 ID
+    int generateNewSimID();// 生成唯一的模拟器 ID
+    bool checkNetNameExists(QTreeWidgetItem* parentItem, const QString& netName);
+    bool checkSimNameExists(QTreeWidgetItem* parentItem, const QString& simName);
     void addNetwork(QTreeWidgetItem* parent, const QString& netName, const QString& waveform);// 添加网络
     void addSimulator(QTreeWidgetItem* netItem, const QString& simName, const QString& waveform);// 添加模拟器
 
 public slots:
-    void refreshTree();//刷新左侧树状图数据
-    void onTreeWidgetItemClicked(QTreeWidgetItem *item);//点击左侧树状图目录
-    void removeNetworkMap(QTreeWidgetItem* item);//删除左侧树状图目录
-    void repeatNetworkMap(int mapID, QString mapName);//复制场景，数据保存到json文件
-    void onRightButtonClicked(QTreeWidgetItem* item);//左侧树状图-右键操作
-    void onUdpconectClicked();//udp-连接
-//    void onUdpSendMessageClicked();
-    void onClearNcrTable();//清理右侧表格数据
-    void saveParamData();//点击“保存”按钮，保存当前模拟器数据
+    void refreshTree();
+    void onTreeWidgetItemClicked(QTreeWidgetItem *item);
+    void removeNetworkMap(QTreeWidgetItem* item);
+    void repeatNetworkMap(int mapID, QString mapName);
+    void onRightButtonClicked(QTreeWidgetItem* item);
+    void onUdpconectClicked();
+    //    void onUdpSendMessageClicked();
+    void onClearNcrTable();
+    void saveParamData();
 
 private:
     Ui::maincontrol *ui;
-    QMap<QString,QJsonObject> simIDMap;//模拟器ID-json数据对应
-    QMap<QString,QJsonObject> paramMap;//模拟器参数ID-json数据对应
-    int sID;//当前所在树状图目录
-    QMap<QString,udpcliet*> udpClietMap;//模拟器ID-udp客户端
-    QMap<QString,bool> udpstateMap;//模拟器对应的udp是否连接
-    QMap<QString,QList<QStringList>> recvDatasMap;//模拟器ID-udp接收数据
-    ncright_table *m_ncrt;//右侧表格
-    Link11parts *linkparts;//模拟器参数页面
-    bool isInitNcrt = false;//右侧表格是否创建
-    void saveJsonToFile(const QJsonArray &array, const QString &filePath);//保存json数据到本地
-    int getNewId(QJsonArray jsonArray, QString idN);//json文件-获取最新id
-    void recvUDPData(QByteArray sendData, QString simID);//udp接收数据
-    QString checkInitudp(QString pro, QString value);//udp参数-设置默认值
+    // QHBoxLayout *allLayout;
+    QSplitter *splitter;//底部和widget2上下滑动控件
+    QGroupBox *groupBox;
+    QHBoxLayout *midHLayout;//将右侧的conAndWid3Layout和rtabVLayout组合
+    QVBoxLayout *rtabVLayout;//最右侧tabwidget的Layout
+    QHBoxLayout *btnHLayout;//右上方btn的layout
+    QVBoxLayout *rightLayout;//底部界面和widget2布局
+    QHBoxLayout *centLayout;//将treewidget和右边的rightLayout整合一起
+    QHBoxLayout *connLayout;//连接界面的布局
+    QVBoxLayout *conAndWid3Layout;//连接界面以及widget3界面
+    QMap<QString,QJsonObject> simIDMap;
+    QMap<QString,QJsonObject> paramMap;
+    int sID;
+    QMap<QString,udpcliet*> udpClietMap;
+    QMap<QString,bool> udpstateMap;
+    QMap<QString,QList<QStringList>> recvDatasMap;
+    ncright_table *m_ncrt;
+    Link11parts *linkparts;
+    bool isInitNcrt = false;
+    void saveJsonToFile(const QJsonArray &array, const QString &filePath);
+    int getNewId(QJsonArray jsonArray, QString idN);
+    void recvUDPData(QByteArray sendData, QString simID);
+    QString checkInitudp(QString pro, QString value);
+
+    // QWidget interface
+protected:
+
+
+    // QWidget interface
+protected:
+    virtual void resizeEvent(QResizeEvent *event) override;
 };
+
+
+
+
 
 #endif // MAINCONTROL_H

@@ -16,6 +16,10 @@
 #include <QMessageBox>
 #include <QVBoxLayout>
 #include<QSizePolicy>
+#include<QSplitter>
+#include<QResizeEvent>
+#include<QFrame>
+#include<QGroupBox>
 //#include "changeparameters.h"
 #include "msg.h"
 
@@ -24,6 +28,84 @@ maincontrol::maincontrol(QWidget* parent)
     , ui(new Ui::maincontrol)
 {
     ui->setupUi(this);
+    //allLayout=new QHBoxLayout(this);
+    //连接界面布局
+    connLayout=new QHBoxLayout();
+    // ui->horizontalLayout->setAlignment()
+    groupBox=new QGroupBox(ui->widget2);
+    groupBox->setMinimumWidth(250);
+    groupBox->setMaximumHeight(120);
+    connLayout->addWidget(ui->label);
+    connLayout->addWidget(ui->pushButton_5);
+
+    connLayout->addWidget(ui->label_2);
+    connLayout->addWidget(ui->dateTimeEdit);
+    connLayout->addWidget(ui->label_3);
+    connLayout->addWidget(ui->lineEdit);
+    connLayout->addWidget(ui->pushButton_6);
+    groupBox->setLayout(connLayout);
+    //连接界面布局 end
+
+    //连接界面和widget3一起布局
+    conAndWid3Layout=new QVBoxLayout();
+    conAndWid3Layout->addWidget(groupBox);
+    ui->widget_3->setMinimumHeight(150);
+    ui->widget_3->setMaximumHeight(290);
+    conAndWid3Layout->addWidget(ui->widget_3);
+    //连接界面和widget3一起布局 end
+
+    //等待和右边的layout组合
+    btnHLayout= new QHBoxLayout();
+    btnHLayout->addWidget(ui->pushButton);
+    btnHLayout->addWidget(ui->pushButton_2);
+    btnHLayout->addWidget(ui->pushButton_3);
+    btnHLayout->addWidget(ui->pushButton_4);
+
+    rtabVLayout=new QVBoxLayout();
+    rtabVLayout->addLayout(btnHLayout);
+    QFrame *widget = new QFrame;
+    widget->setFrameShape(QFrame::HLine);
+    widget->setFrameShadow(QFrame::Sunken);
+    widget->setLineWidth(3);
+    rtabVLayout->addWidget(widget);
+    rtabVLayout->addWidget(ui->rightTabWidget_2);
+    rtabVLayout->addWidget(ui->pushButton_7);
+
+    midHLayout=new QHBoxLayout();
+    midHLayout->addLayout(conAndWid3Layout);
+    QFrame *widget_2=new QFrame;
+    widget_2->setFrameShape(QFrame::VLine);
+    widget_2->setLineWidth(3);
+    widget_2->setFrameShadow(QFrame::Sunken);
+    midHLayout->addWidget(widget_2);
+    midHLayout->addLayout(rtabVLayout);
+
+    ui->widget2->setLayout(midHLayout);
+
+    //主界面的布局
+    rightLayout=new QVBoxLayout();
+    //rightLayout->addWidget(ui->widget2);
+    splitter= new QSplitter(Qt::Vertical);
+    splitter->addWidget(ui->widget2);
+    splitter->addWidget(ui->belowTabWidget);
+    ui->belowTabWidget->setMinimumHeight(250);
+    //ui->belowTabWidget->setMaximumHeight(850);
+    QFrame *separator = new QFrame;
+    separator->setFrameShape(QFrame::HLine);
+    separator->setLineWidth(3);
+    separator->setFrameShadow(QFrame::Sunken);
+    rightLayout->addWidget(splitter);
+    // rightLayout->addWidget(ui->belowTabWidget);
+    ui->treeWidget->setMinimumWidth(180);
+    ui->treeWidget->setMaximumWidth(200);
+    centLayout=new QHBoxLayout(ui->centralwidget);
+    centLayout->addWidget(ui->treeWidget);
+    centLayout->addLayout(rightLayout);
+    //主界面布局 end
+    //allLayout->addLayout(centLayout);
+
+
+
     //添加中心页面linkparts
     linkparts = new Link11parts();
     ui->widget_3->setLayout(new QGridLayout());
@@ -767,4 +849,10 @@ QString maincontrol::checkInitudp(QString pro, QString value)
         pro = value;
     }
     return pro;
+}
+
+void maincontrol::resizeEvent(QResizeEvent *event)
+{
+    QSize newSize=event->size();
+    ui->centralwidget->resize(newSize);
 }

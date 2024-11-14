@@ -4,7 +4,9 @@
 #include <QWidget>
 #include <QCheckBox>
 #include <QMouseEvent>
-
+class QVBoxLayout;
+class QGridLayout;
+class QGroupBox;
 namespace Ui {
 class Simulator;
 }
@@ -23,6 +25,13 @@ protected:
 
 private:
     Ui::Simulator *ui;
+    QGroupBox *checkBoxGroup;
+    QVBoxLayout *centLayout;
+    QGridLayout *gridBoxLayout;
+
+    // QWidget interface
+protected:
+    virtual void resizeEvent(QResizeEvent *event) override;
 };
 
 #endif // SIMULATOR_H

@@ -7,13 +7,18 @@
 #include <QButtonGroup>
 #include <QPlainTextEdit>
 #include <QDebug>
-
+#include<QScrollArea>
 xToolsEleAsciiAssistant::xToolsEleAsciiAssistant(QWidget* parent)
     : QWidget(parent), dateTimeLabel(new QLabel(this)), timer(new QTimer(this)), ui(new Ui::xToolsEleAsciiAssistant)
     , buttonGroup3(new QButtonGroup(this))
     , buttonGroup4(new QButtonGroup(this))
 {
     ui->setupUi(this); // 初始化 UI 组件
+    mainLayout=new QVBoxLayout(this);
+    mainWidget = new QScrollArea(this);
+    mainLayout->addWidget(mainWidget);
+    mainWidget->setLayout(ui->verticalLayout_2);
+    //setLayout(ui->verticalLayout_2);
     headwidget = ui -> headwidget; // 初始化 headwidget
     ui->plainTextEdit->setPlaceholderText("请输入");
     // 设置 comboBox 为可编辑状态

@@ -1,0 +1,58 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"ThirdParty/libqrencode-master/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"id" : "qrencode_autogen::@dcc603b84b47c31c3a04",
+	"isGeneratorProvided" : true,
+	"name" : "qrencode_autogen",
+	"paths" : 
+	{
+		"build" : "ThirdParty/libqrencode-master",
+		"source" : "ThirdParty/libqrencode-master"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/ThirdParty/libqrencode-master/CMakeFiles/qrencode_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/ThirdParty/libqrencode-master/CMakeFiles/qrencode_autogen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

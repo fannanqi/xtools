@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1874</width>
+    <width>1866</width>
     <height>1070</height>
    </rect>
   </property>
@@ -30,8 +30,8 @@ QWidget {
        <rect>
         <x>10</x>
         <y>0</y>
-        <width>221</width>
-        <height>931</height>
+        <width>256</width>
+        <height>192</height>
        </rect>
       </property>
       <property name="styleSheet">
@@ -136,7 +136,7 @@ QTreeWidget QScrollBar:horizontal {
         </rect>
        </property>
        <property name="currentIndex">
-        <number>3</number>
+        <number>2</number>
        </property>
        <widget class="QWidget" name="righttab">
         <attribute name="title">
@@ -211,44 +211,25 @@ QTreeWidget QScrollBar:horizontal {
         <string>修改</string>
        </property>
       </widget>
-      <widget class="QWidget" name="widget_2" native="true">
-       <property name="geometry">
-        <rect>
-         <x>1160</x>
-         <y>10</y>
-         <width>20</width>
-         <height>581</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">border-right: 1px solid lightblue;</string>
-       </property>
-      </widget>
-      <widget class="QWidget" name="widget" native="true">
-       <property name="geometry">
-        <rect>
-         <x>1180</x>
-         <y>40</y>
-         <width>421</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">border-left: none;
-border-top: 2px solid lightblue;
-border-right: 2px solid lightblue;
-border-bottom: none;</string>
-       </property>
-      </widget>
       <widget class="QWidget" name="widget_3" native="true">
        <property name="geometry">
         <rect>
-         <x>10</x>
+         <x>-130</x>
          <y>70</y>
          <width>1151</width>
          <height>521</height>
         </rect>
        </property>
+       <widget class="QLineEdit" name="lineEdit">
+        <property name="geometry">
+         <rect>
+          <x>650</x>
+          <y>0</y>
+          <width>439</width>
+          <height>21</height>
+         </rect>
+        </property>
+       </widget>
       </widget>
       <widget class="QLabel" name="label">
        <property name="geometry">
@@ -279,7 +260,7 @@ border-bottom: none;</string>
       <widget class="QPushButton" name="pushButton_6">
        <property name="geometry">
         <rect>
-         <x>1040</x>
+         <x>970</x>
          <y>20</y>
          <width>80</width>
          <height>20</height>
@@ -288,52 +269,6 @@ border-bottom: none;</string>
        <property name="text">
         <string>保存</string>
        </property>
-      </widget>
-      <widget class="QWidget" name="layoutWidget">
-       <property name="geometry">
-        <rect>
-         <x>520</x>
-         <y>10</y>
-         <width>511</width>
-         <height>41</height>
-        </rect>
-       </property>
-       <layout class="QHBoxLayout" name="horizontalLayout">
-        <item>
-         <widget class="QLabel" name="label_2">
-          <property name="text">
-           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;运行时间:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QDateTimeEdit" name="dateTimeEdit">
-          <property name="dateTime">
-           <datetime>
-            <hour>0</hour>
-            <minute>0</minute>
-            <second>0</second>
-            <year>2024</year>
-            <month>1</month>
-            <day>1</day>
-           </datetime>
-          </property>
-          <property name="displayFormat">
-           <string>yyyy-MM-dd hh:mm:ss</string>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QLabel" name="label_3">
-          <property name="text">
-           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;运行时长(秒)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QLineEdit" name="lineEdit"/>
-        </item>
-       </layout>
       </widget>
       <widget class="QPushButton" name="pushButton_7">
        <property name="geometry">
@@ -346,6 +281,55 @@ border-bottom: none;</string>
        </property>
        <property name="text">
         <string>清除数据</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>510</x>
+         <y>20</y>
+         <width>57</width>
+         <height>39</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;运行时间:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+      <widget class="QDateTimeEdit" name="dateTimeEdit">
+       <property name="geometry">
+        <rect>
+         <x>580</x>
+         <y>30</y>
+         <width>153</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="dateTime">
+        <datetime>
+         <hour>0</hour>
+         <minute>0</minute>
+         <second>0</second>
+         <year>2024</year>
+         <month>1</month>
+         <day>1</day>
+        </datetime>
+       </property>
+       <property name="displayFormat">
+        <string>yyyy-MM-dd hh:mm:ss</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>760</x>
+         <y>20</y>
+         <width>76</width>
+         <height>39</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;运行时长(秒)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
      </widget>

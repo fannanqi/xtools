@@ -1,0 +1,1097 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "ThirdParty/libqrencode-master/libqrencode.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"add_compile_definitions",
+			"include",
+			"add_definitions",
+			"x_tools_add_assistant",
+			"x_tools_git_get_latest_commit",
+			"x_tools_git_get_latest_commit_time",
+			"x_tools_git_get_latest_tag",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"ThirdParty/libqrencode-master/CMakeLists.txt",
+			"CMake/xToolsThirdParty.cmake",
+			"CMakeLists.txt",
+			"CMake/xToolsCommon.cmake",
+			"CMake/xToolsGitInfo.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 117,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 136,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 76,
+				"parent" : 3
+			},
+			{
+				"file" : 1,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 10,
+				"parent" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 73,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 69,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 71,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 70,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 165,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 72,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 73,
+				"parent" : 3
+			},
+			{
+				"file" : 3,
+				"parent" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 1,
+				"parent" : 16
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 6,
+				"parent" : 16
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 5,
+				"parent" : 16
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 4,
+				"parent" : 16
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 2,
+				"parent" : 16
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 153,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 141,
+				"parent" : 22
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 154,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 141,
+				"parent" : 24
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 158,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 141,
+				"parent" : 26
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 125,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 150,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 141,
+				"parent" : 29
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 159,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 141,
+				"parent" : 31
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 160,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 141,
+				"parent" : 33
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 151,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 141,
+				"parent" : 35
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 117,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 155,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 141,
+				"parent" : 38
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 152,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 141,
+				"parent" : 40
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 157,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 141,
+				"parent" : 42
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 56,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 45,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 156,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 141,
+				"parent" : 46
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 11,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 7,
+				"parent" : 16
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 8,
+				"parent" : 16
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 81,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 23,
+				"parent" : 51
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 82,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 34,
+				"parent" : 53
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 80,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 12,
+				"parent" : 55
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 3,
+				"parent" : 16
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 9,
+				"parent" : 5
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 122,
+				"parent" : 3
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 130,
+				"parent" : 3
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 140,
+				"parent" : 29
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 140,
+				"parent" : 35
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 140,
+				"parent" : 40
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 140,
+				"parent" : 22
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 140,
+				"parent" : 24
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 140,
+				"parent" : 38
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 140,
+				"parent" : 46
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 140,
+				"parent" : 42
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 140,
+				"parent" : 26
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 140,
+				"parent" : 31
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 140,
+				"parent" : 33
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++14 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "ACSS_STATIC"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "HAVE_LIBPTHREAD=1"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "HAVE_SDL=0"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "HAVE_STRDUP=1"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "MAJOR_VERSION=4"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "MICRO_VERSION=1"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "MINOR_VERSION=1"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "STATIC_IN_RELEASE=static"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "VERSION=\"4.1.1\""
+				},
+				{
+					"backtrace" : 17,
+					"define" : "X_TOOLS_AUTHOR=\"x-tools-author\""
+				},
+				{
+					"backtrace" : 18,
+					"define" : "X_TOOLS_AUTHOR_EMAIL=\"x-tools@outlook.com\""
+				},
+				{
+					"backtrace" : 19,
+					"define" : "X_TOOLS_CLEAR_MESSAGE_INTERVAL=8000"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "X_TOOLS_DEFAULT_APP_STYLE=\"Fusion\""
+				},
+				{
+					"backtrace" : 21,
+					"define" : "X_TOOLS_EDITION=\"beta1\""
+				},
+				{
+					"backtrace" : 23,
+					"define" : "X_TOOLS_ENABLE_MODULE_ASCII"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "X_TOOLS_ENABLE_MODULE_BASE64"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "X_TOOLS_ENABLE_MODULE_BROADCAST"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "X_TOOLS_ENABLE_MODULE_CANBUS"
+				},
+				{
+					"backtrace" : 30,
+					"define" : "X_TOOLS_ENABLE_MODULE_CRC"
+				},
+				{
+					"backtrace" : 32,
+					"define" : "X_TOOLS_ENABLE_MODULE_FILECHECK"
+				},
+				{
+					"backtrace" : 34,
+					"define" : "X_TOOLS_ENABLE_MODULE_FILEMERGE"
+				},
+				{
+					"backtrace" : 36,
+					"define" : "X_TOOLS_ENABLE_MODULE_MDNS"
+				},
+				{
+					"backtrace" : 37,
+					"define" : "X_TOOLS_ENABLE_MODULE_MODBUS"
+				},
+				{
+					"backtrace" : 39,
+					"define" : "X_TOOLS_ENABLE_MODULE_NUMBER"
+				},
+				{
+					"backtrace" : 41,
+					"define" : "X_TOOLS_ENABLE_MODULE_PING"
+				},
+				{
+					"backtrace" : 43,
+					"define" : "X_TOOLS_ENABLE_MODULE_QRCODE"
+				},
+				{
+					"backtrace" : 44,
+					"define" : "X_TOOLS_ENABLE_MODULE_SERIALBUS"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "X_TOOLS_ENABLE_MODULE_SERIALPORT"
+				},
+				{
+					"backtrace" : 47,
+					"define" : "X_TOOLS_ENABLE_MODULE_STRING"
+				},
+				{
+					"backtrace" : 48,
+					"define" : "X_TOOLS_ENABLE_MODULE_STYLESHEET"
+				},
+				{
+					"backtrace" : 49,
+					"define" : "X_TOOLS_GITEE_REPOSITORY_URL=\"https://gitee.com/x-tools-author/x-tools\""
+				},
+				{
+					"backtrace" : 50,
+					"define" : "X_TOOLS_GITHUB_REPOSITORY_URL=\"https://github.com/x-tools-author/x-tools\""
+				},
+				{
+					"backtrace" : 52,
+					"define" : "X_TOOLS_GIT_COMMIT=\"9eb75ae74f9386c293916f50f998126d20e9631c\""
+				},
+				{
+					"backtrace" : 54,
+					"define" : "X_TOOLS_GIT_COMMIT_TIME=\"Tue Nov 12 10:53:56 2024 +0800\""
+				},
+				{
+					"backtrace" : 56,
+					"define" : "X_TOOLS_GIT_TAG=\"\""
+				},
+				{
+					"backtrace" : 57,
+					"define" : "X_TOOLS_VERSION=\"6.0.0\""
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Debug/ThirdParty/libqrencode-master/qrencode_autogen/include"
+				},
+				{
+					"backtrace" : 58,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/CMake/../ThirdParty/Qt-Advanced-Stylesheets-main/src"
+				},
+				{
+					"backtrace" : 59,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Modbus/Source"
+				},
+				{
+					"backtrace" : 60,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/CANBus/Source"
+				},
+				{
+					"backtrace" : 61,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/CRC/Source"
+				},
+				{
+					"backtrace" : 62,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/mDNS/Source"
+				},
+				{
+					"backtrace" : 63,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/Ping/Source"
+				},
+				{
+					"backtrace" : 64,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/ASCII/Source"
+				},
+				{
+					"backtrace" : 65,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/Base64/Source"
+				},
+				{
+					"backtrace" : 66,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/Number/Source"
+				},
+				{
+					"backtrace" : 67,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/String/Source"
+				},
+				{
+					"backtrace" : 68,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/QRCode/Source"
+				},
+				{
+					"backtrace" : 69,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/Broadcast/Source"
+				},
+				{
+					"backtrace" : 70,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/FileCheck/Source"
+				},
+				{
+					"backtrace" : 71,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/FileMerge/Source"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "ACSS_STATIC"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "HAVE_LIBPTHREAD=1"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "HAVE_SDL=0"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "HAVE_STRDUP=1"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "MAJOR_VERSION=4"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "MICRO_VERSION=1"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "MINOR_VERSION=1"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "STATIC_IN_RELEASE=static"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "VERSION=\"4.1.1\""
+				},
+				{
+					"backtrace" : 17,
+					"define" : "X_TOOLS_AUTHOR=\"x-tools-author\""
+				},
+				{
+					"backtrace" : 18,
+					"define" : "X_TOOLS_AUTHOR_EMAIL=\"x-tools@outlook.com\""
+				},
+				{
+					"backtrace" : 19,
+					"define" : "X_TOOLS_CLEAR_MESSAGE_INTERVAL=8000"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "X_TOOLS_DEFAULT_APP_STYLE=\"Fusion\""
+				},
+				{
+					"backtrace" : 21,
+					"define" : "X_TOOLS_EDITION=\"beta1\""
+				},
+				{
+					"backtrace" : 23,
+					"define" : "X_TOOLS_ENABLE_MODULE_ASCII"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "X_TOOLS_ENABLE_MODULE_BASE64"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "X_TOOLS_ENABLE_MODULE_BROADCAST"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "X_TOOLS_ENABLE_MODULE_CANBUS"
+				},
+				{
+					"backtrace" : 30,
+					"define" : "X_TOOLS_ENABLE_MODULE_CRC"
+				},
+				{
+					"backtrace" : 32,
+					"define" : "X_TOOLS_ENABLE_MODULE_FILECHECK"
+				},
+				{
+					"backtrace" : 34,
+					"define" : "X_TOOLS_ENABLE_MODULE_FILEMERGE"
+				},
+				{
+					"backtrace" : 36,
+					"define" : "X_TOOLS_ENABLE_MODULE_MDNS"
+				},
+				{
+					"backtrace" : 37,
+					"define" : "X_TOOLS_ENABLE_MODULE_MODBUS"
+				},
+				{
+					"backtrace" : 39,
+					"define" : "X_TOOLS_ENABLE_MODULE_NUMBER"
+				},
+				{
+					"backtrace" : 41,
+					"define" : "X_TOOLS_ENABLE_MODULE_PING"
+				},
+				{
+					"backtrace" : 43,
+					"define" : "X_TOOLS_ENABLE_MODULE_QRCODE"
+				},
+				{
+					"backtrace" : 44,
+					"define" : "X_TOOLS_ENABLE_MODULE_SERIALBUS"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "X_TOOLS_ENABLE_MODULE_SERIALPORT"
+				},
+				{
+					"backtrace" : 47,
+					"define" : "X_TOOLS_ENABLE_MODULE_STRING"
+				},
+				{
+					"backtrace" : 48,
+					"define" : "X_TOOLS_ENABLE_MODULE_STYLESHEET"
+				},
+				{
+					"backtrace" : 49,
+					"define" : "X_TOOLS_GITEE_REPOSITORY_URL=\"https://gitee.com/x-tools-author/x-tools\""
+				},
+				{
+					"backtrace" : 50,
+					"define" : "X_TOOLS_GITHUB_REPOSITORY_URL=\"https://github.com/x-tools-author/x-tools\""
+				},
+				{
+					"backtrace" : 52,
+					"define" : "X_TOOLS_GIT_COMMIT=\"9eb75ae74f9386c293916f50f998126d20e9631c\""
+				},
+				{
+					"backtrace" : 54,
+					"define" : "X_TOOLS_GIT_COMMIT_TIME=\"Tue Nov 12 10:53:56 2024 +0800\""
+				},
+				{
+					"backtrace" : 56,
+					"define" : "X_TOOLS_GIT_TAG=\"\""
+				},
+				{
+					"backtrace" : 57,
+					"define" : "X_TOOLS_VERSION=\"6.0.0\""
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Debug/ThirdParty/libqrencode-master/qrencode_autogen/include"
+				},
+				{
+					"backtrace" : 58,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/CMake/../ThirdParty/Qt-Advanced-Stylesheets-main/src"
+				},
+				{
+					"backtrace" : 59,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Modbus/Source"
+				},
+				{
+					"backtrace" : 60,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/CANBus/Source"
+				},
+				{
+					"backtrace" : 61,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/CRC/Source"
+				},
+				{
+					"backtrace" : 62,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/mDNS/Source"
+				},
+				{
+					"backtrace" : 63,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/Ping/Source"
+				},
+				{
+					"backtrace" : 64,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/ASCII/Source"
+				},
+				{
+					"backtrace" : 65,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/Base64/Source"
+				},
+				{
+					"backtrace" : 66,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/Number/Source"
+				},
+				{
+					"backtrace" : 67,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/String/Source"
+				},
+				{
+					"backtrace" : 68,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/QRCode/Source"
+				},
+				{
+					"backtrace" : 69,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/Broadcast/Source"
+				},
+				{
+					"backtrace" : 70,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/FileCheck/Source"
+				},
+				{
+					"backtrace" : 71,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/FileMerge/Source"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "qrencode_autogen::@dcc603b84b47c31c3a04"
+		}
+	],
+	"id" : "qrencode::@dcc603b84b47c31c3a04",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"name" : "qrencode",
+	"nameOnDisk" : "libqrencode.a",
+	"paths" : 
+	{
+		"build" : "ThirdParty/libqrencode-master",
+		"source" : "ThirdParty/libqrencode-master"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/ThirdParty/libqrencode-master/qrencode_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "ThirdParty/libqrencode-master/qrencode.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "ThirdParty/libqrencode-master/qrinput.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "ThirdParty/libqrencode-master/bitstream.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "ThirdParty/libqrencode-master/qrspec.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "ThirdParty/libqrencode-master/rsecc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "ThirdParty/libqrencode-master/split.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "ThirdParty/libqrencode-master/mask.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "ThirdParty/libqrencode-master/mqrspec.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "ThirdParty/libqrencode-master/mmask.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ThirdParty/libqrencode-master/qrencode_inner.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ThirdParty/libqrencode-master/qrinput.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ThirdParty/libqrencode-master/bitstream.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ThirdParty/libqrencode-master/qrspec.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ThirdParty/libqrencode-master/rsecc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ThirdParty/libqrencode-master/split.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ThirdParty/libqrencode-master/mask.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ThirdParty/libqrencode-master/mqrspec.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ThirdParty/libqrencode-master/mmask.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

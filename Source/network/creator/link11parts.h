@@ -135,47 +135,27 @@ private slots:
     void on_pushButton_95_clicked();
     //测试模式
     void on_checkBox_60_clicked(bool checked);
-    //Link11B
-    //模式设置
-    void on_pushButton_31_clicked();
-    void on_pushButton_20_clicked();
-    void on_pushButton_44_clicked();
-    //参数设置
-    void on_btn_link11_sendFrequence_2_clicked();
-    void on_btn_Link11_sendParas_2_clicked();
-    //测试功能
-    void on_spinBox_164_valueChanged(int arg1);
-    void on_spinBox_163_valueChanged(int arg1);
-    void on_pushButton_joinNET_2_clicked();
-    void on_btn_cleanNetwork_2_clicked();
-    void on_btn_startLoop_2_clicked();
-    //战术数据
-    void on_comboBox_40_currentIndexChanged(int index);
-    void on_comboBox_4_activated(int index);
-    void on_pushButton_21_clicked();
-    void on_pushButton_12_clicked();
-    void on_checkBox_4_toggled(bool checked);
-    void on_pushButton_11_clicked();
 private:
     Ui::Link11parts *ui;
     udpcliet *udpCliet;
-    int parID;//当前页码参数ID
-    int simNowID;//当前页码模拟器ID
-    QMap<int,QTimer*> timeSendCycleMap;//模拟器ID-定时工具
-    QMap<int,int> send11PkgNumMap;//模拟器ID-Link11发送包数
-    QMap<int,udpcliet*> timeUdpMap;//模拟器ID-udpCliet
+    int parID;
+    int simNowID;
+    QMap<int,QTimer*> timeSendCycleMap;
+    QMap<int,int> send11PkgNumMap;
+    QMap<int,udpcliet*> timeUdpMap;
     QByteArray l16_slow_fre;
     QByteArray l16_const_fre;
     QByteArray l16_precise_fre;
-    QMap<int,int> send16PkgNumMap;//模拟器ID-Link16发送包数
-    QMap<int,QByteArray> TTNTWorkfreMap;//模拟器ID-TTNTWorkfre
-    QMap<int,QByteArray> TTNT_hand_routeMap;//模拟器ID-TTNT_hand_route
-    QMap<int,int> sendttntPkgNumMap;//模拟器ID-TTNT发送包数
-    QMap<int,int> send11BPkgNumMap;//模拟器ID-Link11B发送包数
-    void setCommonModel(uchar waveType, int confType, int waveNo);//配置
-    void setLink4ASendFrequency(uchar msgType, uint value);//Link4a-发送频率
-    int hexstringtochar(QString sstr,char *aadr);//十六进制字符串转换为字符数组
-    void setMessageBox(bool isResult,QString str1,QString str2);//弹窗提醒
+    QMap<int,int> send16PkgNumMap;
+    QByteArray TTNTWorkfre;
+    QByteArray TTNT_hand_route;
+    QMap<int,int> sendttntPkgNumMap;
+    int testTTNTMessLen =0;
+    char* testTTNTArray = new char[1024];
+    void setCommonModel(uchar waveType, int confType, int waveNo);
+    void setLink4ASendFrequency(uchar msgType, uint value);
+    int hexstringtochar(QString sstr,char *aadr);
+    void setMessageBox(bool isResult,QString str1,QString str2);
 };
 
 #endif // LINK11PARTS_H

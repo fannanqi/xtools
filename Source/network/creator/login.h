@@ -19,17 +19,17 @@ public:
     explicit login(QWidget *parent = nullptr);
     ~login();
 
-    QString getLineEditNameText() const;//获取场景名称
-    QString getLineEditNetworkCountText() const;//获取网络数
+    QString getLineEditNameText() const;
+    QString getLineEditNetworkCountText() const;
 
 signals:
-    void sendData(const QString &inputData, int networkCount);//发送场景、网络数信号
+    void sendData(const QString &inputData, int networkCount);
 
 protected:
     void resizeEvent(QResizeEvent *event) override; // 添加 resizeEvent 声明
 
 private slots:
-    void on_btn_log_clicked();//点击确认按钮执行
+    void on_btn_log_clicked();
 
 private:
     Ui::login *ui;

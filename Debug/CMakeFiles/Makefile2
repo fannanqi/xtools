@@ -191,11 +191,11 @@ ThirdParty/qmdnsengine-master/src/clean: ThirdParty/qmdnsengine-master/src/CMake
 # Target rules for target CMakeFiles/xToolsCore.dir
 
 # All Build rule for target.
+CMakeFiles/xToolsCore.dir/all: CMakeFiles/xToolsCore_autogen.dir/all
 CMakeFiles/xToolsCore.dir/all: ThirdParty/libqrencode-master/CMakeFiles/qrencode.dir/all
 CMakeFiles/xToolsCore.dir/all: ThirdParty/qmdnsengine-master/src/CMakeFiles/qmdnsengine.dir/all
 CMakeFiles/xToolsCore.dir/all: Source/Common/CMakeFiles/xToolsCommon.dir/all
 CMakeFiles/xToolsCore.dir/all: Source/Tools/CMakeFiles/xToolsTools.dir/all
-CMakeFiles/xToolsCore.dir/all: CMakeFiles/xToolsCore_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/xToolsCore.dir/build.make CMakeFiles/xToolsCore.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/xToolsCore.dir/build.make CMakeFiles/xToolsCore.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/apple/Desktop/x-tools-6.0.1/Debug/CMakeFiles --progress-num=49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68 "Built target xToolsCore"
@@ -464,8 +464,8 @@ Source/Common/CMakeFiles/xToolsCommon_autogen.dir/clean:
 # Target rules for target Source/Tools/CMakeFiles/xToolsTools.dir
 
 # All Build rule for target.
-Source/Tools/CMakeFiles/xToolsTools.dir/all: Source/Common/CMakeFiles/xToolsCommon.dir/all
 Source/Tools/CMakeFiles/xToolsTools.dir/all: Source/Tools/CMakeFiles/xToolsTools_autogen.dir/all
+Source/Tools/CMakeFiles/xToolsTools.dir/all: Source/Common/CMakeFiles/xToolsCommon.dir/all
 	$(MAKE) $(MAKESILENT) -f Source/Tools/CMakeFiles/xToolsTools.dir/build.make Source/Tools/CMakeFiles/xToolsTools.dir/depend
 	$(MAKE) $(MAKESILENT) -f Source/Tools/CMakeFiles/xToolsTools.dir/build.make Source/Tools/CMakeFiles/xToolsTools.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/apple/Desktop/x-tools-6.0.1/Debug/CMakeFiles --progress-num=73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99 "Built target xToolsTools"

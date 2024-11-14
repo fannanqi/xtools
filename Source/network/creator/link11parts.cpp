@@ -241,9 +241,9 @@ QJsonArray Link11parts::saveChangeData(QJsonArray paramArray, QString dateTimeEd
     return paramArray;
 }
 QJsonObject Link11parts::getProParamJson(QString waveform, QJsonObject paramObject) {
-//    QJsonObject paramObject;
+    //    QJsonObject paramObject;
     if(waveform == "Link4A") {
-//        paramObject["checkBox_2"] = "false";
+        //        paramObject["checkBox_2"] = "false";
         bool checkBox2 = ui->checkBox_2->isChecked();
         if(checkBox2) {
             paramObject["checkBox_2"] = "true";
@@ -289,7 +289,7 @@ QJsonObject Link11parts::getProParamJson(QString waveform, QJsonObject paramObje
         paramObject["comboBox_36"] = ui->comboBox_36->currentText();
         paramObject["plainTextEdit_27"] = ui->plainTextEdit_27->toPlainText();
         paramObject["spinBox_34"] = ui->spinBox_34->value();
-//        paramObject["checkBox_3"] = "false";
+        //        paramObject["checkBox_3"] = "false";
         bool checkBox3 = ui->checkBox_3->isChecked();
         if(checkBox3) {
             paramObject["checkBox_3"] = "true";
@@ -334,7 +334,7 @@ QJsonObject Link11parts::getProParamJson(QString waveform, QJsonObject paramObje
         paramObject["l16StartWord"] = ui->l16StartWord->toPlainText();
         paramObject["l16ContinueWord"] = ui->l16ContinueWord->toPlainText();
         paramObject["l16MessageType"] = ui->l16MessageType->currentText();
-//        paramObject["l16Current"] = "false";
+        //        paramObject["l16Current"] = "false";
         bool l16Current = ui->l16Current->isChecked();
         if(l16Current) {
             paramObject["l16Current"] = "true";
@@ -348,7 +348,7 @@ QJsonObject Link11parts::getProParamJson(QString waveform, QJsonObject paramObje
         paramObject["plainTextEdit_34"] = ui->plainTextEdit_34->toPlainText();
         paramObject["l16SendCount"] = ui->l16SendCount->text();
         paramObject["l16SenNUm_2"] = ui->l16SenNUm_2->value();
-//        paramObject["checkBox_61"] = "false";
+        //        paramObject["checkBox_61"] = "false";
         bool checkBox_61 = ui->checkBox_61->isChecked();
         if(checkBox_61) {
             paramObject["checkBox_61"] = "true";
@@ -556,7 +556,7 @@ void Link11parts::on_pushButton_13_clicked(){//战术数据 发送
     Struct_CommandMsg cmd;//定义报文体
     Struct_COMMON_data msg;
     cmd.length = sizeof(Struct_CommandMsg) - sizeof(char *)
-            + sizeof(Struct_COMMON_data) + stringData.size() - sizeof(char *);
+                 + sizeof(Struct_COMMON_data) + stringData.size() - sizeof(char *);
     cmd.waveType = Struct_CommandMsg::ENUM_WAVE_LINK4A;
     msg.pkgnum = ui->comboBox_28->currentText().toInt();//发送包数:
     msg.pkgnum = qToBigEndian(msg.pkgnum);
@@ -841,7 +841,7 @@ void Link11parts::on_pushButton_17_clicked() {//发送
     Struct_CommandMsg cmd;//定义报文体
     Struct_COMMON_data msg;
     cmd.length = sizeof(Struct_CommandMsg) - sizeof(char *)
-            + sizeof(Struct_COMMON_data) + stringData.size() - sizeof(char *);
+                 + sizeof(Struct_COMMON_data) + stringData.size() - sizeof(char *);
     cmd.waveType = Struct_CommandMsg::ENUM_WAVE_LINK11;
     msg.pkgnum = ui->comboBox_36->currentText().toInt();
     msg.pkgnum = qToBigEndian(msg.pkgnum);
@@ -1776,7 +1776,7 @@ void Link11parts::on_pushButton_36_clicked() {//消息格式  下发
     len2 =  hexstringtochar(ui->l16ContinueWord->toPlainText(),buf);
     dealbuf[1] = len2;
     memcpy(dealbuf+len1+5,buf,len2);
-//    memcpy(dealbuf+len1,buf,len2);
+    //    memcpy(dealbuf+len1,buf,len2);
     msg.send_num =0x01;
     msg.send_num = qToBigEndian( msg.send_num);
     dealbuf[2]= ui->l16Jn->text().toUInt();
@@ -1822,43 +1822,43 @@ void Link11parts::on_l16MessageType_currentIndexChanged(int index) {//设置数�
         ui->l16Jm->setValue(0);
         ui->l16C->setValue(0);
     }
-        break;
+    break;
     case 2: {
         ui->l16Jn->setValue(0);
         ui->l16Jm->setValue(3);
         ui->l16C->setValue(0);
     }
-        break;
+    break;
     case 3: {
         ui->l16Jn->setValue(1);
         ui->l16Jm->setValue(1);
         ui->l16C->setValue(0);
     }
-        break;
+    break;
     case 4: {
         ui->l16Jn->setValue(1);
         ui->l16Jm->setValue(4);
         ui->l16C->setValue(0);
     }
-        break;
+    break;
     case 5: {
         ui->l16Jn->setValue(2);
         ui->l16Jm->setValue(2);
         ui->l16C->setValue(1);
     }
-        break;
+    break;
     case 6: {
         ui->l16Jn->setValue(3);
         ui->l16Jm->setValue(7);
         ui->l16C->setValue(1);
     }
-        break;
+    break;
     case 7: {
         ui->l16Jn->setValue(4);
         ui->l16Jm->setValue(2);
         ui->l16C->setValue(1);
     }
-        break;
+    break;
     default:
         break;
     }
@@ -1907,7 +1907,7 @@ void Link11parts::on_pushButton_70_clicked() {//设置数据 发送
                 ui->l16SendCount->setText(QString::number(senndNum16));
             } else {
                 timeSendCycle16->stop();
-//                senndNum16 =0;
+                //                senndNum16 =0;
                 timeUdpMap.remove(simNowID);
                 timeSendCycleMap.remove(simNowID);
             }
@@ -1942,7 +1942,7 @@ void Link11parts::on_checkBox_61_clicked(bool checked) {//测试模式
     char* testL16Array = new char[1024];
     memset(testL16Array,0,1024);
     memcpy(testL16Array,buf,mes_len);
-//    int testL16MessLen = mes_len;
+    //    int testL16MessLen = mes_len;
     if(mes_len>1000) {
         setMessageBox(true,"数据输入过多，最大1000字节","数据为：" + QString::number(mes_len));
         return;
@@ -2569,7 +2569,7 @@ void Link11parts::on_pushButton_59_clicked() {//战术数据 发送
                     ui->lineEdit_41->setText(QString::number(senndNumttnt));
             } else {
                 timeSendCycleTtnt->stop();
-//                senndNumttnt =0;
+                //                senndNumttnt =0;
                 timeUdpMap.remove(simNowID);
                 timeSendCycleMap.remove(simNowID);
             }

@@ -1,0 +1,975 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "Source/Task/libxToolsTask.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"add_compile_definitions",
+			"include",
+			"x_tools_add_assistant",
+			"x_tools_git_get_latest_commit",
+			"x_tools_git_get_latest_commit_time",
+			"x_tools_git_get_latest_tag",
+			"include_directories",
+			"x_tools_add_third_party"
+		],
+		"files" : 
+		[
+			"Source/Task/CMakeLists.txt",
+			"CMake/xToolsThirdParty.cmake",
+			"CMakeLists.txt",
+			"CMake/xToolsCommon.cmake",
+			"CMake/xToolsGitInfo.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 76,
+				"parent" : 3
+			},
+			{
+				"file" : 1,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 10,
+				"parent" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 73,
+				"parent" : 3
+			},
+			{
+				"file" : 3,
+				"parent" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 1,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 6,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 5,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 4,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 2,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 153,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 141,
+				"parent" : 14
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 172,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 154,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 141,
+				"parent" : 17
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 158,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 141,
+				"parent" : 19
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 125,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 150,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 141,
+				"parent" : 22
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 159,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 141,
+				"parent" : 24
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 160,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 141,
+				"parent" : 26
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 151,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 141,
+				"parent" : 28
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 117,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 155,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 141,
+				"parent" : 31
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 152,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 141,
+				"parent" : 33
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 157,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 141,
+				"parent" : 35
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 56,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 45,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 156,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 141,
+				"parent" : 39
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 11,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 7,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 8,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 81,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 23,
+				"parent" : 44
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 82,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 34,
+				"parent" : 46
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 80,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 12,
+				"parent" : 48
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 3,
+				"parent" : 8
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 9,
+				"parent" : 5
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 122,
+				"parent" : 3
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 130,
+				"parent" : 3
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 140,
+				"parent" : 22
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 140,
+				"parent" : 28
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 140,
+				"parent" : 33
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 140,
+				"parent" : 14
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 140,
+				"parent" : 17
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 140,
+				"parent" : 31
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 140,
+				"parent" : 39
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 140,
+				"parent" : 35
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 140,
+				"parent" : 19
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 140,
+				"parent" : 24
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 140,
+				"parent" : 26
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 163,
+				"parent" : 3
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 24,
+				"parent" : 65
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 167,
+				"parent" : 3
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 24,
+				"parent" : 67
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 171,
+				"parent" : 3
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 179,
+				"parent" : 3
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 180,
+				"parent" : 3
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 181,
+				"parent" : 3
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 182,
+				"parent" : 3
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 183,
+				"parent" : 3
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 184,
+				"parent" : 3
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 185,
+				"parent" : 3
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 186,
+				"parent" : 3
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 187,
+				"parent" : 3
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 188,
+				"parent" : 3
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++14 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "ACSS_STATIC"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_WIDGETS_LIB"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "X_TOOLS_AUTHOR=\"x-tools-author\""
+				},
+				{
+					"backtrace" : 10,
+					"define" : "X_TOOLS_AUTHOR_EMAIL=\"x-tools@outlook.com\""
+				},
+				{
+					"backtrace" : 11,
+					"define" : "X_TOOLS_CLEAR_MESSAGE_INTERVAL=8000"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "X_TOOLS_DEFAULT_APP_STYLE=\"Fusion\""
+				},
+				{
+					"backtrace" : 13,
+					"define" : "X_TOOLS_EDITION=\"beta1\""
+				},
+				{
+					"backtrace" : 15,
+					"define" : "X_TOOLS_ENABLE_MODULE_ASCII"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "X_TOOLS_ENABLE_MODULE_ASSISTANTS"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "X_TOOLS_ENABLE_MODULE_BASE64"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "X_TOOLS_ENABLE_MODULE_BROADCAST"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "X_TOOLS_ENABLE_MODULE_CANBUS"
+				},
+				{
+					"backtrace" : 23,
+					"define" : "X_TOOLS_ENABLE_MODULE_CRC"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "X_TOOLS_ENABLE_MODULE_FILECHECK"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "X_TOOLS_ENABLE_MODULE_FILEMERGE"
+				},
+				{
+					"backtrace" : 29,
+					"define" : "X_TOOLS_ENABLE_MODULE_MDNS"
+				},
+				{
+					"backtrace" : 30,
+					"define" : "X_TOOLS_ENABLE_MODULE_MODBUS"
+				},
+				{
+					"backtrace" : 32,
+					"define" : "X_TOOLS_ENABLE_MODULE_NUMBER"
+				},
+				{
+					"backtrace" : 34,
+					"define" : "X_TOOLS_ENABLE_MODULE_PING"
+				},
+				{
+					"backtrace" : 36,
+					"define" : "X_TOOLS_ENABLE_MODULE_QRCODE"
+				},
+				{
+					"backtrace" : 37,
+					"define" : "X_TOOLS_ENABLE_MODULE_SERIALBUS"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "X_TOOLS_ENABLE_MODULE_SERIALPORT"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "X_TOOLS_ENABLE_MODULE_STRING"
+				},
+				{
+					"backtrace" : 41,
+					"define" : "X_TOOLS_ENABLE_MODULE_STYLESHEET"
+				},
+				{
+					"backtrace" : 42,
+					"define" : "X_TOOLS_GITEE_REPOSITORY_URL=\"https://gitee.com/x-tools-author/x-tools\""
+				},
+				{
+					"backtrace" : 43,
+					"define" : "X_TOOLS_GITHUB_REPOSITORY_URL=\"https://github.com/x-tools-author/x-tools\""
+				},
+				{
+					"backtrace" : 45,
+					"define" : "X_TOOLS_GIT_COMMIT=\"9eb75ae74f9386c293916f50f998126d20e9631c\""
+				},
+				{
+					"backtrace" : 47,
+					"define" : "X_TOOLS_GIT_COMMIT_TIME=\"Tue Nov 12 10:53:56 2024 +0800\""
+				},
+				{
+					"backtrace" : 49,
+					"define" : "X_TOOLS_GIT_TAG=\"\""
+				},
+				{
+					"backtrace" : 50,
+					"define" : "X_TOOLS_VERSION=\"6.0.0\""
+				}
+			],
+			"frameworks" : 
+			[
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtWidgets.framework"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtGui.framework"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtCore.framework"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/build/Source/Task/xToolsTask_autogen/include"
+				},
+				{
+					"backtrace" : 51,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/CMake/../ThirdParty/Qt-Advanced-Stylesheets-main/src"
+				},
+				{
+					"backtrace" : 52,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Modbus/Source"
+				},
+				{
+					"backtrace" : 53,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/CANBus/Source"
+				},
+				{
+					"backtrace" : 54,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/CRC/Source"
+				},
+				{
+					"backtrace" : 55,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/mDNS/Source"
+				},
+				{
+					"backtrace" : 56,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/Ping/Source"
+				},
+				{
+					"backtrace" : 57,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/ASCII/Source"
+				},
+				{
+					"backtrace" : 58,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/Base64/Source"
+				},
+				{
+					"backtrace" : 59,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/Number/Source"
+				},
+				{
+					"backtrace" : 60,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/String/Source"
+				},
+				{
+					"backtrace" : 61,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/QRCode/Source"
+				},
+				{
+					"backtrace" : 62,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/Broadcast/Source"
+				},
+				{
+					"backtrace" : 63,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/FileCheck/Source"
+				},
+				{
+					"backtrace" : 64,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/FileMerge/Source"
+				},
+				{
+					"backtrace" : 66,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/ThirdParty/libqrencode-master"
+				},
+				{
+					"backtrace" : 68,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/ThirdParty/qmdnsengine-master"
+				},
+				{
+					"backtrace" : 69,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants"
+				},
+				{
+					"backtrace" : 70,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Common/Common"
+				},
+				{
+					"backtrace" : 71,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Common/CommonUI"
+				},
+				{
+					"backtrace" : 72,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Tools/Tools"
+				},
+				{
+					"backtrace" : 73,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Tools/ToolsUI"
+				},
+				{
+					"backtrace" : 74,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/ToolBox/ToolBox"
+				},
+				{
+					"backtrace" : 75,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/ToolBox/ToolBoxUI"
+				},
+				{
+					"backtrace" : 76,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/network/creator"
+				},
+				{
+					"backtrace" : 77,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/electr/creator"
+				},
+				{
+					"backtrace" : 78,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source"
+				},
+				{
+					"backtrace" : 79,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/task/source"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtWidgets.framework/Headers"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtGui.framework/Headers"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/OpenGL.framework/Headers"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtCore.framework/Headers"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/./mkspecs/macx-clang"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				7,
+				8,
+				9,
+				10,
+				13
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "xToolsTask_autogen::@af24ee6e9327d34d50f2"
+		}
+	],
+	"id" : "xToolsTask::@af24ee6e9327d34d50f2",
+	"name" : "xToolsTask",
+	"nameOnDisk" : "libxToolsTask.a",
+	"paths" : 
+	{
+		"build" : "Source/Task",
+		"source" : "Source/Task"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				7,
+				8,
+				9,
+				10,
+				13
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				12
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				6,
+				11
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				14
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Source/Task/xToolsTask_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Task/source/canttchartscene.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Task/source/canttchartview.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Task/source/cantttimebaritem.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Task/source/definition.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Task/source/taskFileMergeAssistant.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Task/source/taskFileMergeAssistant.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Task/source/canttchartscene.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Task/source/canttchartview.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Task/source/cantttimebaritem.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Task/source/taskFileMergeAssistant.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Task/img.qrc",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Source/Task/xToolsTask_autogen/include/source/ui_taskFileMergeAssistant.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Source/Task/xToolsTask_autogen/EWIEGA46WW/qrc_img.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Source/Task/xToolsTask_autogen/EWIEGA46WW/qrc_img.cpp.rule",
+			"sourceGroupIndex" : 3
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

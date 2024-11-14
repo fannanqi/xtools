@@ -94,6 +94,12 @@ private slots:
 private:
     Ui::Widget *ui;
     login *loginWindow;
+    QPixmap *pixDevChecked;
+    QPixmap *pixDevUnChecked;
+    QPixmap *pixPacChecked;
+    QPixmap *pixPacUnChecked;
+    QPixmap *pixParChecked;
+    QPixmap *pixParUnChecked;
     QColor getLabelTextColor(QLabel *label);
     QList<QWidget*> openedWindows;
     QVector<QStringList> dev_Data;

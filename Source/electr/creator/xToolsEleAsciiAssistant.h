@@ -9,7 +9,8 @@
 #include <QPushButton>
 #include <QPlainTextEdit>
 //#include "ui_xToolsEleAsciiAssistant.h"
-
+class QScrollArea;
+class QVBoxLayout;
 namespace Ui {
 class xToolsEleAsciiAssistant;
 }
@@ -35,6 +36,8 @@ private slots:
 
 private:
     Ui::xToolsEleAsciiAssistant *ui;
+    QVBoxLayout *mainLayout;
+    QScrollArea *mainWidget;
     QButtonGroup *buttonGroup3;
     QButtonGroup *buttonGroup4;
     QLabel *dateTimeLabel;

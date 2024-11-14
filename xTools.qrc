@@ -74,5 +74,11 @@
         <file>Resources/Images/computer2.png</file>
         <file>Resources/Images/computer3.png</file>
         <file>Resources/Files/History.txt</file>
+        <file>Resources/Icons/home_unchecked.svg</file>
+        <file>Resources/Icons/home_checked.svg</file>
+        <file>Resources/Icons/book_unchecked.svg</file>
+        <file>Resources/Icons/book_checked.svg</file>
+        <file>Resources/Icons/parameter_unchecked.svg</file>
+        <file>Resources/Icons/parameter_checked.svg</file>
     </qresource>
 </RCC>

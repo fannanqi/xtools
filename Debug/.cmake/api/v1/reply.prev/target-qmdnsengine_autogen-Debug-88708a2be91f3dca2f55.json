@@ -1,0 +1,58 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"ThirdParty/qmdnsengine-master/src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"id" : "qmdnsengine_autogen::@dfe4569bdf61c26b5e92",
+	"isGeneratorProvided" : true,
+	"name" : "qmdnsengine_autogen",
+	"paths" : 
+	{
+		"build" : "ThirdParty/qmdnsengine-master/src",
+		"source" : "ThirdParty/qmdnsengine-master/src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/ThirdParty/qmdnsengine-master/src/CMakeFiles/qmdnsengine_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/ThirdParty/qmdnsengine-master/src/CMakeFiles/qmdnsengine_autogen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

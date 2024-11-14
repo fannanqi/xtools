@@ -13,6 +13,7 @@
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QCheckBox>
 #include <QtWidgets/QGridLayout>
+#include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QSpacerItem>
 #include <QtWidgets/QWidget>
 
@@ -22,6 +23,7 @@ class Ui_Simulator
 {
 public:
     QWidget *layoutWidget;
+    QVBoxLayout *centLayout;
     QGridLayout *gridLayout;
     QCheckBox *checkBox2;
     QSpacerItem *horizontalSpacer_18;
@@ -63,10 +65,13 @@ public:
         sizePolicy.setVerticalStretch(0);
         sizePolicy.setHeightForWidth(Simulator->sizePolicy().hasHeightForWidth());
         Simulator->setSizePolicy(sizePolicy);
+
         layoutWidget = new QWidget(Simulator);
+        centLayout =new QVBoxLayout(layoutWidget);
         layoutWidget->setObjectName(QString::fromUtf8("layoutWidget"));
         layoutWidget->setGeometry(QRect(0, 0, 1831, 711));
-        gridLayout = new QGridLayout(layoutWidget);
+        gridLayout = new QGridLayout();
+        centLayout->addLayout(gridLayout);
         gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
         gridLayout->setContentsMargins(0, 0, 0, 0);
         checkBox2 = new QCheckBox(layoutWidget);

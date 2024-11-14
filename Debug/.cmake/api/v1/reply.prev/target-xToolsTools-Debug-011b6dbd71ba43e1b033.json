@@ -1,0 +1,2065 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "Source/Tools/libxToolsTools.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_dependencies",
+			"target_link_libraries",
+			"add_compile_definitions",
+			"include",
+			"x_tools_add_assistant",
+			"x_tools_git_get_latest_commit",
+			"x_tools_git_get_latest_commit_time",
+			"x_tools_git_get_latest_tag",
+			"include_directories",
+			"x_tools_add_third_party"
+		],
+		"files" : 
+		[
+			"Source/Tools/CMakeLists.txt",
+			"CMake/xToolsThirdParty.cmake",
+			"CMakeLists.txt",
+			"CMake/xToolsCommon.cmake",
+			"CMake/xToolsGitInfo.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 40,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 76,
+				"parent" : 4
+			},
+			{
+				"file" : 1,
+				"parent" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 10,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 73,
+				"parent" : 4
+			},
+			{
+				"file" : 3,
+				"parent" : 9
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 1,
+				"parent" : 10
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 6,
+				"parent" : 10
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 5,
+				"parent" : 10
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 4,
+				"parent" : 10
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 2,
+				"parent" : 10
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 153,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 141,
+				"parent" : 16
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 172,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 154,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 141,
+				"parent" : 19
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 158,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 141,
+				"parent" : 21
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 125,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 150,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 141,
+				"parent" : 24
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 159,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 141,
+				"parent" : 26
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 160,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 141,
+				"parent" : 28
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 151,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 141,
+				"parent" : 30
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 117,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 155,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 141,
+				"parent" : 33
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 152,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 141,
+				"parent" : 35
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 157,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 141,
+				"parent" : 37
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 56,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 45,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 156,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 141,
+				"parent" : 41
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 11,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 7,
+				"parent" : 10
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 8,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 81,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 23,
+				"parent" : 46
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 82,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 34,
+				"parent" : 48
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 80,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 12,
+				"parent" : 50
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 3,
+				"parent" : 10
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 9,
+				"parent" : 6
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 122,
+				"parent" : 4
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 130,
+				"parent" : 4
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 140,
+				"parent" : 24
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 140,
+				"parent" : 30
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 140,
+				"parent" : 35
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 140,
+				"parent" : 16
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 140,
+				"parent" : 19
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 140,
+				"parent" : 33
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 140,
+				"parent" : 41
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 140,
+				"parent" : 37
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 140,
+				"parent" : 21
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 140,
+				"parent" : 26
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 140,
+				"parent" : 28
+			},
+			{
+				"command" : 10,
+				"file" : 2,
+				"line" : 163,
+				"parent" : 4
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 24,
+				"parent" : 67
+			},
+			{
+				"command" : 10,
+				"file" : 2,
+				"line" : 167,
+				"parent" : 4
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 24,
+				"parent" : 69
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 171,
+				"parent" : 4
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 179,
+				"parent" : 4
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 180,
+				"parent" : 4
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 181,
+				"parent" : 4
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 182,
+				"parent" : 4
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 183,
+				"parent" : 4
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 184,
+				"parent" : 4
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 185,
+				"parent" : 4
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 186,
+				"parent" : 4
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 187,
+				"parent" : 4
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 188,
+				"parent" : 4
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++14 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "ACSS_STATIC"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_SERIALBUS_LIB"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_SERIALPORT_LIB"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_SVG_LIB"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_WEBSOCKETS_LIB"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_WIDGETS_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_XML_LIB"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "X_TOOLS_AUTHOR=\"x-tools-author\""
+				},
+				{
+					"backtrace" : 12,
+					"define" : "X_TOOLS_AUTHOR_EMAIL=\"x-tools@outlook.com\""
+				},
+				{
+					"backtrace" : 13,
+					"define" : "X_TOOLS_CLEAR_MESSAGE_INTERVAL=8000"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "X_TOOLS_DEFAULT_APP_STYLE=\"Fusion\""
+				},
+				{
+					"backtrace" : 15,
+					"define" : "X_TOOLS_EDITION=\"beta1\""
+				},
+				{
+					"backtrace" : 17,
+					"define" : "X_TOOLS_ENABLE_MODULE_ASCII"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "X_TOOLS_ENABLE_MODULE_ASSISTANTS"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "X_TOOLS_ENABLE_MODULE_BASE64"
+				},
+				{
+					"backtrace" : 22,
+					"define" : "X_TOOLS_ENABLE_MODULE_BROADCAST"
+				},
+				{
+					"backtrace" : 23,
+					"define" : "X_TOOLS_ENABLE_MODULE_CANBUS"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "X_TOOLS_ENABLE_MODULE_CRC"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "X_TOOLS_ENABLE_MODULE_FILECHECK"
+				},
+				{
+					"backtrace" : 29,
+					"define" : "X_TOOLS_ENABLE_MODULE_FILEMERGE"
+				},
+				{
+					"backtrace" : 31,
+					"define" : "X_TOOLS_ENABLE_MODULE_MDNS"
+				},
+				{
+					"backtrace" : 32,
+					"define" : "X_TOOLS_ENABLE_MODULE_MODBUS"
+				},
+				{
+					"backtrace" : 34,
+					"define" : "X_TOOLS_ENABLE_MODULE_NUMBER"
+				},
+				{
+					"backtrace" : 36,
+					"define" : "X_TOOLS_ENABLE_MODULE_PING"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "X_TOOLS_ENABLE_MODULE_QRCODE"
+				},
+				{
+					"backtrace" : 39,
+					"define" : "X_TOOLS_ENABLE_MODULE_SERIALBUS"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "X_TOOLS_ENABLE_MODULE_SERIALPORT"
+				},
+				{
+					"backtrace" : 42,
+					"define" : "X_TOOLS_ENABLE_MODULE_STRING"
+				},
+				{
+					"backtrace" : 43,
+					"define" : "X_TOOLS_ENABLE_MODULE_STYLESHEET"
+				},
+				{
+					"backtrace" : 44,
+					"define" : "X_TOOLS_GITEE_REPOSITORY_URL=\"https://gitee.com/x-tools-author/x-tools\""
+				},
+				{
+					"backtrace" : 45,
+					"define" : "X_TOOLS_GITHUB_REPOSITORY_URL=\"https://github.com/x-tools-author/x-tools\""
+				},
+				{
+					"backtrace" : 47,
+					"define" : "X_TOOLS_GIT_COMMIT=\"9eb75ae74f9386c293916f50f998126d20e9631c\""
+				},
+				{
+					"backtrace" : 49,
+					"define" : "X_TOOLS_GIT_COMMIT_TIME=\"Tue Nov 12 10:53:56 2024 +0800\""
+				},
+				{
+					"backtrace" : 51,
+					"define" : "X_TOOLS_GIT_TAG=\"\""
+				},
+				{
+					"backtrace" : 52,
+					"define" : "X_TOOLS_VERSION=\"6.0.0\""
+				}
+			],
+			"frameworks" : 
+			[
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtXml.framework"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtCore.framework"
+				},
+				{
+					"backtrace" : 8,
+					"isSystem" : true,
+					"path" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtGui.framework"
+				},
+				{
+					"backtrace" : 8,
+					"isSystem" : true,
+					"path" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtSvg.framework"
+				},
+				{
+					"backtrace" : 8,
+					"isSystem" : true,
+					"path" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtWidgets.framework"
+				},
+				{
+					"backtrace" : 8,
+					"isSystem" : true,
+					"path" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtNetwork.framework"
+				},
+				{
+					"backtrace" : 8,
+					"isSystem" : true,
+					"path" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtSerialBus.framework"
+				},
+				{
+					"backtrace" : 8,
+					"isSystem" : true,
+					"path" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtSerialPort.framework"
+				},
+				{
+					"backtrace" : 8,
+					"isSystem" : true,
+					"path" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtWebSockets.framework"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Debug/Source/Tools/xToolsTools_autogen/include"
+				},
+				{
+					"backtrace" : 53,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/CMake/../ThirdParty/Qt-Advanced-Stylesheets-main/src"
+				},
+				{
+					"backtrace" : 54,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Modbus/Source"
+				},
+				{
+					"backtrace" : 55,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/CANBus/Source"
+				},
+				{
+					"backtrace" : 56,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/CRC/Source"
+				},
+				{
+					"backtrace" : 57,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/mDNS/Source"
+				},
+				{
+					"backtrace" : 58,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/Ping/Source"
+				},
+				{
+					"backtrace" : 59,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/ASCII/Source"
+				},
+				{
+					"backtrace" : 60,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/Base64/Source"
+				},
+				{
+					"backtrace" : 61,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/Number/Source"
+				},
+				{
+					"backtrace" : 62,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/String/Source"
+				},
+				{
+					"backtrace" : 63,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/QRCode/Source"
+				},
+				{
+					"backtrace" : 64,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/Broadcast/Source"
+				},
+				{
+					"backtrace" : 65,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/FileCheck/Source"
+				},
+				{
+					"backtrace" : 66,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants/FileMerge/Source"
+				},
+				{
+					"backtrace" : 68,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/ThirdParty/libqrencode-master"
+				},
+				{
+					"backtrace" : 70,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/ThirdParty/qmdnsengine-master"
+				},
+				{
+					"backtrace" : 71,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Assistants"
+				},
+				{
+					"backtrace" : 72,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Common/Common"
+				},
+				{
+					"backtrace" : 73,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Common/CommonUI"
+				},
+				{
+					"backtrace" : 74,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Tools/Tools"
+				},
+				{
+					"backtrace" : 75,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/Tools/ToolsUI"
+				},
+				{
+					"backtrace" : 76,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/ToolBox/ToolBox"
+				},
+				{
+					"backtrace" : 77,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/ToolBox/ToolBoxUI"
+				},
+				{
+					"backtrace" : 78,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/network/creator"
+				},
+				{
+					"backtrace" : 79,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/electr/creator"
+				},
+				{
+					"backtrace" : 80,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source"
+				},
+				{
+					"backtrace" : 81,
+					"path" : "/Users/apple/Desktop/x-tools-6.0.1/Source/task/source"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtXml.framework/Headers"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtCore.framework/Headers"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/./mkspecs/macx-clang"
+				},
+				{
+					"backtrace" : 8,
+					"isSystem" : true,
+					"path" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtGui.framework/Headers"
+				},
+				{
+					"backtrace" : 8,
+					"isSystem" : true,
+					"path" : "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/OpenGL.framework/Headers"
+				},
+				{
+					"backtrace" : 8,
+					"isSystem" : true,
+					"path" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtSvg.framework/Headers"
+				},
+				{
+					"backtrace" : 8,
+					"isSystem" : true,
+					"path" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtWidgets.framework/Headers"
+				},
+				{
+					"backtrace" : 8,
+					"isSystem" : true,
+					"path" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtNetwork.framework/Headers"
+				},
+				{
+					"backtrace" : 8,
+					"isSystem" : true,
+					"path" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtSerialBus.framework/Headers"
+				},
+				{
+					"backtrace" : 8,
+					"isSystem" : true,
+					"path" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtSerialPort.framework/Headers"
+				},
+				{
+					"backtrace" : 8,
+					"isSystem" : true,
+					"path" : "/Users/apple/Qt5.12.10/5.12.10/clang_64/lib/QtWebSockets.framework/Headers"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				5,
+				7,
+				9,
+				11,
+				13,
+				15,
+				17,
+				19,
+				21,
+				23,
+				25,
+				27,
+				29,
+				31,
+				33,
+				35,
+				37,
+				39,
+				41,
+				43,
+				45,
+				47,
+				49,
+				51,
+				53,
+				55,
+				57,
+				59,
+				61,
+				64,
+				66,
+				68,
+				71,
+				74,
+				77,
+				79,
+				82,
+				84,
+				87,
+				89,
+				92,
+				95,
+				97,
+				100,
+				103,
+				105,
+				108,
+				111,
+				114,
+				117,
+				120,
+				122,
+				124,
+				126,
+				128,
+				130,
+				133,
+				135,
+				157
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "xToolsTools_autogen::@fe417c6d97d7eccb8d07"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "xToolsCommon::@db1505eb558fbb8cb9af"
+		}
+	],
+	"id" : "xToolsTools::@fe417c6d97d7eccb8d07",
+	"name" : "xToolsTools",
+	"nameOnDisk" : "libxToolsTools.a",
+	"paths" : 
+	{
+		"build" : "Source/Tools",
+		"source" : "Source/Tools"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				5,
+				7,
+				9,
+				11,
+				13,
+				15,
+				17,
+				19,
+				21,
+				23,
+				25,
+				27,
+				29,
+				31,
+				33,
+				35,
+				37,
+				39,
+				41,
+				43,
+				45,
+				47,
+				49,
+				51,
+				53,
+				55,
+				57,
+				59,
+				61,
+				64,
+				66,
+				68,
+				71,
+				74,
+				77,
+				79,
+				82,
+				84,
+				87,
+				89,
+				92,
+				95,
+				97,
+				100,
+				103,
+				105,
+				108,
+				111,
+				114,
+				117,
+				120,
+				122,
+				124,
+				126,
+				128,
+				130,
+				133,
+				135,
+				157
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				63,
+				70,
+				73,
+				76,
+				78,
+				81,
+				86,
+				91,
+				94,
+				99,
+				102,
+				107,
+				110,
+				113,
+				116,
+				119,
+				132,
+				137,
+				138
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				6,
+				8,
+				10,
+				12,
+				14,
+				16,
+				18,
+				20,
+				22,
+				24,
+				26,
+				28,
+				30,
+				32,
+				34,
+				36,
+				38,
+				40,
+				42,
+				44,
+				46,
+				48,
+				50,
+				52,
+				54,
+				56,
+				58,
+				60,
+				62,
+				65,
+				67,
+				69,
+				72,
+				75,
+				80,
+				83,
+				85,
+				88,
+				90,
+				93,
+				96,
+				98,
+				101,
+				104,
+				106,
+				109,
+				112,
+				115,
+				118,
+				121,
+				123,
+				125,
+				127,
+				129,
+				131,
+				134,
+				136,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				158
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/Source/Tools/xToolsTools_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/Resources/Translations/xToolsTools_en.qm",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/Resources/Translations/xToolsTools_en.ts",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/Resources/Translations/xToolsTools_zh_CN.qm",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/Resources/Translations/xToolsTools_zh_CN.ts",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/Tools/xToolsAnalyzerTool.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/Tools/xToolsAnalyzerTool.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/Tools/xToolsBaseTool.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/Tools/xToolsBaseTool.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/Tools/xToolsCommunicationTool.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/Tools/xToolsCommunicationTool.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/Tools/xToolsCrcCalculatorTool.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/Tools/xToolsCrcCalculatorTool.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/Tools/xToolsEmitterTool.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/Tools/xToolsEmitterTool.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/Tools/xToolsMaskerTool.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/Tools/xToolsMaskerTool.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/Tools/xToolsPrestorerTool.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/Tools/xToolsPrestorerTool.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/Tools/xToolsResponserTool.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/Tools/xToolsResponserTool.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/Tools/xToolsSerialPortTool.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/Tools/xToolsSerialPortTool.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/Tools/xToolsSerialPortTransmitterTool.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/Tools/xToolsSerialPortTransmitterTool.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/Tools/xToolsSocketClientTool.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/Tools/xToolsSocketClientTool.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/Tools/xToolsSocketClientTransmitterTool.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/Tools/xToolsSocketClientTransmitterTool.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/Tools/xToolsSocketServerTool.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/Tools/xToolsSocketServerTool.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/Tools/xToolsStatisticianTool.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/Tools/xToolsStatisticianTool.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/Tools/xToolsStorerTool.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/Tools/xToolsStorerTool.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/Tools/xToolsTableModelTool.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/Tools/xToolsTableModelTool.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/Tools/xToolsTcpClientTool.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/Tools/xToolsTcpClientTool.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/Tools/xToolsTcpServerTool.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/Tools/xToolsTcpServerTool.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/Tools/xToolsTcpTransmitterTool.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/Tools/xToolsTcpTransmitterTool.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/Tools/xToolsToolFactory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/Tools/xToolsToolFactory.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/Tools/xToolsTransmitterTool.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/Tools/xToolsTransmitterTool.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/Tools/xToolsUdpClientTool.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/Tools/xToolsUdpClientTool.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/Tools/xToolsUdpServerTool.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/Tools/xToolsUdpServerTool.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/Tools/xToolsUdpTransmitterTool.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/Tools/xToolsUdpTransmitterTool.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/Tools/xToolsVelometerTool.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/Tools/xToolsVelometerTool.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/Tools/xToolsWebSocketClientTool.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/Tools/xToolsWebSocketClientTool.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/Tools/xToolsWebSocketServerTool.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/Tools/xToolsWebSocketServerTool.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/Tools/xToolsWebSocketTransmitterTool.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/Tools/xToolsWebSocketTransmitterTool.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/ToolsUI/xToolsAnalyzerToolUi.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/ToolsUI/xToolsAnalyzerToolUi.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/ToolsUI/xToolsAnalyzerToolUi.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/ToolsUI/xToolsBaseToolUi.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/ToolsUI/xToolsBaseToolUi.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/ToolsUI/xToolsCommunicationToolUi.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/ToolsUI/xToolsCommunicationToolUi.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/ToolsUI/xToolsCrcCalculatorToolUi.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/ToolsUI/xToolsCrcCalculatorToolUi.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/ToolsUI/xToolsCrcCalculatorToolUi.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/ToolsUI/xToolsEmitterToolUi.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/ToolsUI/xToolsEmitterToolUi.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/ToolsUI/xToolsEmitterToolUi.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/ToolsUI/xToolsEmitterToolUiEditor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/ToolsUI/xToolsEmitterToolUiEditor.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/ToolsUI/xToolsEmitterToolUiEditor.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/ToolsUI/xToolsHidToolUi.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/ToolsUI/xToolsHidToolUi.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/ToolsUI/xToolsMaskerToolUi.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/ToolsUI/xToolsMaskerToolUi.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/ToolsUI/xToolsMaskerToolUi.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/ToolsUI/xToolsPrestorerToolUi.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/ToolsUI/xToolsPrestorerToolUi.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/ToolsUI/xToolsPrestorerToolUiEditor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/ToolsUI/xToolsPrestorerToolUiEditor.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/ToolsUI/xToolsPrestorerToolUiEditor.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/ToolsUI/xToolsResponserToolUi.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/ToolsUI/xToolsResponserToolUi.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/ToolsUI/xToolsResponserToolUiEditor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/ToolsUI/xToolsResponserToolUiEditor.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/ToolsUI/xToolsResponserToolUiEditor.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/ToolsUI/xToolsSerialPortToolUi.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/ToolsUI/xToolsSerialPortToolUi.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/ToolsUI/xToolsSerialPortToolUi.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/ToolsUI/xToolsSerialPortTransmitterToolUi.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/ToolsUI/xToolsSerialPortTransmitterToolUi.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/ToolsUI/xToolsSerialPortTransmitterToolUiEditor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/ToolsUI/xToolsSerialPortTransmitterToolUiEditor.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/ToolsUI/xToolsSerialPortTransmitterToolUiEditor.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/ToolsUI/xToolsSocketClientToolUi.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/ToolsUI/xToolsSocketClientToolUi.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/ToolsUI/xToolsSocketClientToolUi.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/ToolsUI/xToolsSocketClientTransmitterToolUi.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/ToolsUI/xToolsSocketClientTransmitterToolUi.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/ToolsUI/xToolsSocketClientTransmitterToolUiEditor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/ToolsUI/xToolsSocketClientTransmitterToolUiEditor.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/ToolsUI/xToolsSocketClientTransmitterToolUiEditor.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/ToolsUI/xToolsSocketServerToolUi.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/ToolsUI/xToolsSocketServerToolUi.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/ToolsUI/xToolsSocketServerToolUi.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/ToolsUI/xToolsStatisticianToolUi.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/ToolsUI/xToolsStatisticianToolUi.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/ToolsUI/xToolsStatisticianToolUi.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/ToolsUI/xToolsStorerToolUi.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/ToolsUI/xToolsStorerToolUi.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/ToolsUI/xToolsStorerToolUi.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/ToolsUI/xToolsTableModelToolUi.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/ToolsUI/xToolsTableModelToolUi.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/ToolsUI/xToolsTableModelToolUi.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/ToolsUI/xToolsTableViewToolUi.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/ToolsUI/xToolsTableViewToolUi.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/ToolsUI/xToolsTcpTransmitterToolUi.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/ToolsUI/xToolsTcpTransmitterToolUi.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/ToolsUI/xToolsToolUiFactory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/ToolsUI/xToolsToolUiFactory.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/ToolsUI/xToolsTransmitterToolUi.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/ToolsUI/xToolsTransmitterToolUi.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/ToolsUI/xToolsUdpTransmitterToolUi.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/ToolsUI/xToolsUdpTransmitterToolUi.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/ToolsUI/xToolsVelometerToolUi.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/ToolsUI/xToolsVelometerToolUi.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/ToolsUI/xToolsVelometerToolUi.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/ToolsUI/xToolsWebSocketTransmitterToolUi.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/ToolsUI/xToolsWebSocketTransmitterToolUi.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Tools/ToolsUI/xlinktablemodeltoolui.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/ToolsUI/xlinktablemodeltoolui.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/ToolsUI/xlinktablemodeltoolui.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Tools/xToolsTools.qrc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/Source/Tools/xToolsTools_autogen/include/ToolsUI/ui_xToolsAnalyzerToolUi.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/Source/Tools/xToolsTools_autogen/include/ToolsUI/ui_xToolsCrcCalculatorToolUi.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/Source/Tools/xToolsTools_autogen/include/ToolsUI/ui_xToolsEmitterToolUi.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/Source/Tools/xToolsTools_autogen/include/ToolsUI/ui_xToolsEmitterToolUiEditor.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/Source/Tools/xToolsTools_autogen/include/ToolsUI/ui_xToolsHidToolUi.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/Source/Tools/xToolsTools_autogen/include/ToolsUI/ui_xToolsMaskerToolUi.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/Source/Tools/xToolsTools_autogen/include/ToolsUI/ui_xToolsPrestorerToolUiEditor.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/Source/Tools/xToolsTools_autogen/include/ToolsUI/ui_xToolsResponserToolUiEditor.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/Source/Tools/xToolsTools_autogen/include/ToolsUI/ui_xToolsSerialPortToolUi.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/Source/Tools/xToolsTools_autogen/include/ToolsUI/ui_xToolsSerialPortTransmitterToolUiEditor.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/Source/Tools/xToolsTools_autogen/include/ToolsUI/ui_xToolsSocketClientToolUi.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/Source/Tools/xToolsTools_autogen/include/ToolsUI/ui_xToolsSocketClientTransmitterToolUiEditor.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/Source/Tools/xToolsTools_autogen/include/ToolsUI/ui_xToolsSocketServerToolUi.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/Source/Tools/xToolsTools_autogen/include/ToolsUI/ui_xToolsStatisticianToolUi.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/Source/Tools/xToolsTools_autogen/include/ToolsUI/ui_xToolsStorerToolUi.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/Source/Tools/xToolsTools_autogen/include/ToolsUI/ui_xToolsTableModelToolUi.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/Source/Tools/xToolsTools_autogen/include/ToolsUI/ui_xToolsVelometerToolUi.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/Source/Tools/xToolsTools_autogen/include/ToolsUI/ui_xlinktablemodeltoolui.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/Source/Tools/xToolsTools_autogen/EWIEGA46WW/qrc_xToolsTools.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Debug/Source/Tools/xToolsTools_autogen/EWIEGA46WW/qrc_xToolsTools.cpp.rule",
+			"sourceGroupIndex" : 3
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}
